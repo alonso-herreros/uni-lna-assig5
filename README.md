@@ -380,7 +380,8 @@ parámetro `-b`.
 Según el manual (`ldapsearch(1)`), al incluir la opción `-s one`, la búsqueda
 se limita a objetos directamente hijos de la base especificada.
 
-Usando el siguiente comando obtenemos todos los alumnos que sean hijos directos de la unidad organizativa `Alum`:
+Usando el siguiente comando obtenemos todos los alumnos que sean hijos directos
+de la unidad organizativa `Alum`:
 
 ```sh
 ldapsearch -x -H ldaps://ldap.lab.it.uc3m.es -b "ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es" -s one "(objectClass=*)"
@@ -449,7 +450,8 @@ result: 0 Success
 ```
 
 Otro uso de este parámetro puede ser obtener los subgrupos 'hermanos' de
-`Alum`, aplicando la búsqueda a una base de un nivel anterior. Usando el siguiente comando:
+`Alum`, aplicando la búsqueda a una base de un nivel anterior. Usando el
+siguiente comando:
 
 ```sh
 ldapsearch -x -H ldaps://ldap.lab.it.uc3m.es -b "dc=lab,dc=it,dc=uc3m,dc=es" -s one "(objectClass=*)"
