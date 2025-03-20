@@ -51,7 +51,7 @@ ldapsearch -x -H ldaps://ldap.lab.it.uc3m.es -b "dc=lab,dc=it,dc=uc3m,dc=es" "(u
 
 Obtenemos la siguiente respuesta:
 
-```
+```text
 # extended LDIF
 #
 # LDAPv3
@@ -83,7 +83,7 @@ ldapsearch -x -H ldaps://ldap.lab.it.uc3m.es -b "ou=Asig,dc=lab,dc=it,dc=uc3m,dc
 
 Obtenemos la siguiente respuesta:
 
-```
+```text
 # extended LDIF
 #
 # LDAPv3
@@ -129,7 +129,7 @@ ldapsearch -x -H ldaps://ldap.lab.it.uc3m.es -b "ou=Asig,dc=lab,dc=it,dc=uc3m,dc
 
 Obtenemos la siguiente respuesta:
 
-```
+```text
 # extended LDIF
 #
 # LDAPv3
@@ -169,7 +169,7 @@ ldapsearch -x -H ldaps://ldap.lab.it.uc3m.es -b "ou=Asig,dc=lab,dc=it,dc=uc3m,dc
 
 Obtenemos la siguiente respuesta:
 
-```
+```text
 # extended LDIF
 #
 # LDAPv3
@@ -216,7 +216,7 @@ ldapsearch -x -H ldaps://ldap.lab.it.uc3m.es -b "dc=lab,dc=it,dc=uc3m,dc=es" "(u
 
 Obtenemos la siguiente respuesta (truncada):
 
-```
+```text
 # extended LDIF
 #
 # LDAPv3
@@ -252,7 +252,7 @@ ldapsearch -x -H ldaps://ldap.lab.it.uc3m.es -b "dc=lab,dc=it,dc=uc3m,dc=es" "(u
 
 Obtenemos la siguiente respuesta:
 
-```
+```text
 # extended LDIF
 #
 # LDAPv3
@@ -281,7 +281,7 @@ ldapsearch -x -H ldaps://ldap.lab.it.uc3m.es -b "ou=Alum,dc=lab,dc=it,dc=uc3m,dc
 
 Obtenemos la siguiente respuesta:
 
-```
+```text
 # extended LDIF
 #
 # LDAPv3
@@ -321,7 +321,7 @@ ldapsearch -x -H ldaps://ldap.lab.it.uc3m.es -b "ou=Alum,dc=lab,dc=it,dc=uc3m,dc
 
 Obtenemos la siguiente respuesta:
 
-```
+```text
 # extended LDIF
 #
 # LDAPv3
@@ -349,7 +349,7 @@ ldapsearch -x -H ldaps://ldap.lab.it.uc3m.es -b "ou=Alum,dc=lab,dc=it,dc=uc3m,dc
 
 Obtenemos la siguiente respuesta:
 
-```
+```text
 # extended LDIF
 #
 # LDAPv3
@@ -388,7 +388,7 @@ ldapsearch -x -H ldaps://ldap.lab.it.uc3m.es -b "ou=Alum,dc=lab,dc=it,dc=uc3m,dc
 
 Obtenemos la siguiente respuesta (truncada):
 
-```
+```text
 # extended LDIF
 #
 # LDAPv3
@@ -423,7 +423,7 @@ ldapsearch -x -H ldaps://ldap.lab.it.uc3m.es -b "ou=Alum,dc=lab,dc=it,dc=uc3m,dc
 
 Obtenemos la siguiente respuesta:
 
-```
+```text
 # extended LDIF
 #
 # LDAPv3
@@ -457,7 +457,7 @@ ldapsearch -x -H ldaps://ldap.lab.it.uc3m.es -b "dc=lab,dc=it,dc=uc3m,dc=es" -s 
 
 Obtenemos la siguiente respuesta (truncada):
 
-```
+```text
 # extended LDIF
 #
 # LDAPv3
@@ -514,7 +514,7 @@ ldapsearch -x -H ldaps://ldap.lab.it.uc3m.es -b "ou=Alum,dc=lab,dc=it,dc=uc3m,dc
 
 Obtenemos la siguiente respuesta (reducida):
 
-```
+```text
 # extended LDIF
 #
 # LDAPv3
@@ -551,7 +551,7 @@ ldapsearch -x -H ldaps://ldap.lab.it.uc3m.es -b "ou=Alum,dc=lab,dc=it,dc=uc3m,dc
 
 Obtenemos la siguiente respuesta (reducida):
 
-```
+```text
 # extended LDIF
 #
 # LDAPv3
@@ -588,7 +588,7 @@ ldapsearch -x -H ldaps://ldap.lab.it.uc3m.es -b "ou=Alum,dc=lab,dc=it,dc=uc3m,dc
 
 Obtenemos la siguiente respuesta (reducida):
 
-```
+```text
 # extended LDIF
 #
 # LDAPv3
@@ -623,7 +623,7 @@ ldapsearch -x -H ldaps://ldap.lab.it.uc3m.es -b "ou=Alum,dc=lab,dc=it,dc=uc3m,dc
 
 Obtenemos la siguiente respuesta:
 
-```
+```text
 # extended LDIF
 #
 # LDAPv3
@@ -658,7 +658,7 @@ ldapsearch -x -H ldaps://ldap.lab.it.uc3m.es -b "ou=Alum,dc=lab,dc=it,dc=uc3m,dc
 
 Obtenemos la siguiente respuesta:
 
-```
+```text
 # extended LDIF
 #
 # LDAPv3
@@ -696,7 +696,7 @@ ldapsearch -x -H ldaps://ldap.lab.it.uc3m.es -b "ou=Alum,dc=lab,dc=it,dc=uc3m,dc
 
 Obtenemos la siguiente respuesta (reducida):
 
-```
+```text
 # extended LDIF
 #
 # LDAPv3
@@ -732,7 +732,7 @@ ldapsearch -x -H ldaps://ldap.lab.it.uc3m.es -b "ou=Alum,dc=lab,dc=it,dc=uc3m,dc
 
 Obtenemos la siguiente respuesta:
 
-```
+```text
 # extended LDIF
 #
 # LDAPv3
@@ -775,7 +775,7 @@ ldapsearch -x -H ldaps://ldap.lab.it.uc3m.es -b "dc=lab,dc=it,dc=uc3m,dc=es" "(u
 
 Obtenemos la siguiente respuesta:
 
-```
+```text
 # extended LDIF
 #
 # LDAPv3
@@ -844,7 +844,7 @@ ldapsearch -x -H ldaps://ldap.uc3m.es -b "o=Universidad Carlos III,c=es" "(uid=1
 
 Obteniendo la siguiente respuesta:
 
-```
+```text
 # extended LDIF
 #
 # LDAPv3
@@ -906,7 +906,7 @@ ldapsearch -x -H ldaps://ldap.uc3m.es -b "ou=Alumnos,ou=Gente,o=Universidad Carl
 
 Obtenemos la siguiente respuesta:
 
-```
+```text
 # extended LDIF
 #
 # LDAPv3
@@ -940,7 +940,7 @@ ldapsearch -x -H ldaps://ldap.uc3m.es -b "ou=Alumnos,ou=Gente,o=Universidad Carl
 
 Obtenemos la siguiente respuesta:
 
-```
+```text
 # extended LDIF
 #
 # LDAPv3
