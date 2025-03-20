@@ -1,0 +1,30 @@
+[2025-03-20, 12:18:37] ldapsearch -x -H ldaps://ldap.lab.it.uc3m.es -b "ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es" -s one "(cn=ALONSO *)" dn
+# extended LDIF
+#
+# LDAPv3
+# base <ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es> with scope oneLevel
+# filter: (cn=ALONSO *)
+# requesting: dn 
+#
+
+# 0451451, Alum, lab.it.uc3m.es
+dn: uid=0451451,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0454449, Alum, lab.it.uc3m.es
+dn: uid=0454449,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0472857, Alum, lab.it.uc3m.es
+dn: uid=0472857,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0493990, Alum, lab.it.uc3m.es
+dn: uid=0493990,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0522750, Alum, lab.it.uc3m.es
+dn: uid=0522750,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# search result
+search: 2
+result: 0 Success
+
+# numResponses: 6
+# numEntries: 5

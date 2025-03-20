@@ -1,0 +1,21 @@
+[2025-03-20, 11:33:17] ldapsearch -x -H ldaps://ldap.lab.it.uc3m.es -b "dc=lab,dc=it,dc=uc3m,dc=es" "(uid=0493990)" homeDirectory mailRoutingAddress cn
+# extended LDIF
+#
+# LDAPv3
+# base <dc=lab,dc=it,dc=uc3m,dc=es> with scope subtree
+# filter: (uid=0493990)
+# requesting: homeDirectory mailRoutingAddress cn 
+#
+
+# 0493990, Alum, lab.it.uc3m.es
+dn: uid=0493990,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+cn: ALONSO HERREROS COPETE
+homeDirectory: /usr/lab/alum/0493990
+mailRoutingAddress: 100493990@alumnos.uc3m.es
+
+# search result
+search: 2
+result: 0 Success
+
+# numResponses: 2
+# numEntries: 1

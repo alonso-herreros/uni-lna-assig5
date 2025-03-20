@@ -1,0 +1,20 @@
+[2025-03-20, 11:51:31] ldapsearch -x -H ldaps://ldap.lab.it.uc3m.es -b "ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es" -s base "(objectClass=*)"
+# extended LDIF
+#
+# LDAPv3
+# base <ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es> with scope baseObject
+# filter: (objectClass=*)
+# requesting: ALL
+#
+
+# Alum, lab.it.uc3m.es
+dn: ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+objectClass: organizationalUnit
+ou: Alum
+
+# search result
+search: 2
+result: 0 Success
+
+# numResponses: 2
+# numEntries: 1

@@ -1,0 +1,69 @@
+[2025-03-20, 12:20:02] ldapsearch -x -H ldaps://ldap.lab.it.uc3m.es -b "ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es" -s one "(cn=*GRA*)" dn
+# extended LDIF
+#
+# LDAPv3
+# base <ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es> with scope oneLevel
+# filter: (cn=*GRA*)
+# requesting: dn 
+#
+
+# 0384107, Alum, lab.it.uc3m.es
+dn: uid=0384107,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0383999, Alum, lab.it.uc3m.es
+dn: uid=0383999,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0452014, Alum, lab.it.uc3m.es
+dn: uid=0452014,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0451426, Alum, lab.it.uc3m.es
+dn: uid=0451426,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0454754, Alum, lab.it.uc3m.es
+dn: uid=0454754,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0451401, Alum, lab.it.uc3m.es
+dn: uid=0451401,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0462203, Alum, lab.it.uc3m.es
+dn: uid=0462203,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0500379, Alum, lab.it.uc3m.es
+dn: uid=0500379,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0472734, Alum, lab.it.uc3m.es
+dn: uid=0472734,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0499987, Alum, lab.it.uc3m.es
+dn: uid=0499987,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0521050, Alum, lab.it.uc3m.es
+dn: uid=0521050,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0472829, Alum, lab.it.uc3m.es
+dn: uid=0472829,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0458456, Alum, lab.it.uc3m.es
+dn: uid=0458456,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0523027, Alum, lab.it.uc3m.es
+dn: uid=0523027,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0531546, Alum, lab.it.uc3m.es
+dn: uid=0531546,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0523051, Alum, lab.it.uc3m.es
+dn: uid=0523051,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0548344, Alum, lab.it.uc3m.es
+dn: uid=0548344,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0523045, Alum, lab.it.uc3m.es
+dn: uid=0523045,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# search result
+search: 2
+result: 0 Success
+
+# numResponses: 19
+# numEntries: 18

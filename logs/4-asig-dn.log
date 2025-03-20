@@ -1,0 +1,252 @@
+[2025-03-20, 11:25:39] ldapsearch -x -H ldaps://ldap.lab.it.uc3m.es -b "ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es" "(objectClass=*)" dn
+# extended LDIF
+#
+# LDAPv3
+# base <ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es> with scope subtree
+# filter: (objectClass=*)
+# requesting: dn 
+#
+
+# Asig, lab.it.uc3m.es
+dn: ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# ircit, Asig, lab.it.uc3m.es
+dn: uid=ircit,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# lablarc, Asig, lab.it.uc3m.es
+dn: uid=lablarc,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labscd, Asig, lab.it.uc3m.es
+dn: uid=labscd,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labrsci, Asig, lab.it.uc3m.es
+dn: uid=labrsci,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# lablis, Asig, lab.it.uc3m.es
+dn: uid=lablis,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labro, Asig, lab.it.uc3m.es
+dn: uid=labro,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labro2, Asig, lab.it.uc3m.es
+dn: uid=labro2,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labsi, Asig, lab.it.uc3m.es
+dn: uid=labsi,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labarc, Asig, lab.it.uc3m.es
+dn: uid=labarc,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labrm, Asig, lab.it.uc3m.es
+dn: uid=labrm,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labttlat, Asig, lab.it.uc3m.es
+dn: uid=labttlat,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labswc, Asig, lab.it.uc3m.es
+dn: uid=labswc,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labfimitt, Asig, lab.it.uc3m.es
+dn: uid=labfimitt,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labsi2, Asig, lab.it.uc3m.es
+dn: uid=labsi2,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labsimitis, Asig, lab.it.uc3m.es
+dn: uid=labsimitis,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labrsc-sa, Asig, lab.it.uc3m.es
+dn: uid=labrsc-sa,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labrsc-tel, Asig, lab.it.uc3m.es
+dn: uid=labrsc-tel,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labrsc-sc, Asig, lab.it.uc3m.es
+dn: uid=labrsc-sc,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labtr, Asig, lab.it.uc3m.es
+dn: uid=labtr,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labgasii, Asig, lab.it.uc3m.es
+dn: uid=labgasii,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labswc-it, Asig, lab.it.uc3m.es
+dn: uid=labswc-it,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labgrysca, Asig, lab.it.uc3m.es
+dn: uid=labgrysca,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labgtcon, Asig, lab.it.uc3m.es
+dn: uid=labgtcon,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labgaam, Asig, lab.it.uc3m.es
+dn: uid=labgaam,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labgriym, Asig, lab.it.uc3m.es
+dn: uid=labgriym,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labgaw, Asig, lab.it.uc3m.es
+dn: uid=labgaw,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labgrsc, Asig, lab.it.uc3m.es
+dn: uid=labgrsc,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labgro, Asig, lab.it.uc3m.es
+dn: uid=labgro,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labgamm, Asig, lab.it.uc3m.es
+dn: uid=labgamm,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labgcd, Asig, lab.it.uc3m.es
+dn: uid=labgcd,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# wlit, Asig, lab.it.uc3m.es
+dn: uid=wlit,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labgastt, Asig, lab.it.uc3m.es
+dn: uid=labgastt,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labgcro, Asig, lab.it.uc3m.es
+dn: uid=labgcro,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labgimi, Asig, lab.it.uc3m.es
+dn: uid=labgimi,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labgps, Asig, lab.it.uc3m.es
+dn: uid=labgps,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labaptel, Asig, lab.it.uc3m.es
+dn: uid=labaptel,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labgcd1, Asig, lab.it.uc3m.es
+dn: uid=labgcd1,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labgcd2, Asig, lab.it.uc3m.es
+dn: uid=labgcd2,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labgaramc, Asig, lab.it.uc3m.es
+dn: uid=labgaramc,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labgpfat, Asig, lab.it.uc3m.es
+dn: uid=labgpfat,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labgfsc, Asig, lab.it.uc3m.es
+dn: uid=labgfsc,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labgas, Asig, lab.it.uc3m.es
+dn: uid=labgas,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labgars, Asig, lab.it.uc3m.es
+dn: uid=labgars,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labgaramcgtt, Asig, lab.it.uc3m.es
+dn: uid=labgaramcgtt,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labgdat, Asig, lab.it.uc3m.es
+dn: uid=labgdat,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labarciot, Asig, lab.it.uc3m.es
+dn: uid=labarciot,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labgcd3, Asig, lab.it.uc3m.es
+dn: uid=labgcd3,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labmri5g, Asig, lab.it.uc3m.es
+dn: uid=labmri5g,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labgriym2, Asig, lab.it.uc3m.es
+dn: uid=labgriym2,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labgred, Asig, lab.it.uc3m.es
+dn: uid=labgred,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labgaramce, Asig, lab.it.uc3m.es
+dn: uid=labgaramce,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labaptel1, Asig, lab.it.uc3m.es
+dn: uid=labaptel1,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labaptel2, Asig, lab.it.uc3m.es
+dn: uid=labaptel2,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labaptel3, Asig, lab.it.uc3m.es
+dn: uid=labaptel3,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labmsma, Asig, lab.it.uc3m.es
+dn: uid=labmsma,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labgaramc1, Asig, lab.it.uc3m.es
+dn: uid=labgaramc1,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labgaramc2, Asig, lab.it.uc3m.es
+dn: uid=labgaramc2,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labmm2m, Asig, lab.it.uc3m.es
+dn: uid=labmm2m,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labgaptel, Asig, lab.it.uc3m.es
+dn: uid=labgaptel,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labmri5g1, Asig, lab.it.uc3m.es
+dn: uid=labmri5g1,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labmri5g2, Asig, lab.it.uc3m.es
+dn: uid=labmri5g2,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labgrsc1, Asig, lab.it.uc3m.es
+dn: uid=labgrsc1,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labgrsc2, Asig, lab.it.uc3m.es
+dn: uid=labgrsc2,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labgrsc3, Asig, lab.it.uc3m.es
+dn: uid=labgrsc3,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labgrsc4, Asig, lab.it.uc3m.es
+dn: uid=labgrsc4,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labgarl, Asig, lab.it.uc3m.es
+dn: uid=labgarl,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labgap, Asig, lab.it.uc3m.es
+dn: uid=labgap,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labgasii2, Asig, lab.it.uc3m.es
+dn: uid=labgasii2,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labgap1, Asig, lab.it.uc3m.es
+dn: uid=labgap1,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labgiot, Asig, lab.it.uc3m.es
+dn: uid=labgiot,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labmdgri, Asig, lab.it.uc3m.es
+dn: uid=labmdgri,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labgidap, Asig, lab.it.uc3m.es
+dn: uid=labgidap,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labgrsc-si, Asig, lab.it.uc3m.es
+dn: uid=labgrsc-si,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labgdst, Asig, lab.it.uc3m.es
+dn: uid=labgdst,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labgrs, Asig, lab.it.uc3m.es
+dn: uid=labgrs,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labgtcom, Asig, lab.it.uc3m.es
+dn: uid=labgtcom,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labmcmm, Asig, lab.it.uc3m.es
+dn: uid=labmcmm,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# labgsa, Asig, lab.it.uc3m.es
+dn: uid=labgsa,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# search result
+search: 2
+result: 0 Success
+
+# numResponses: 80
+# numEntries: 79

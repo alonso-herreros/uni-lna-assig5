@@ -1,0 +1,20 @@
+[2025-03-20, 12:58:21] ldapsearch -x -H ldaps://ldap.uc3m.es -b "o=Universidad Carlos III,c=es" "(uid=100493990)" dn
+# extended LDIF
+#
+# LDAPv3
+# base <o=Universidad Carlos III,c=es> with scope subtree
+# filter: (uid=100493990)
+# requesting: dn 
+#
+
+# 100493990, GRADO EN INGENIERIA EN TECNOLOGIAS DE TELECOMUNICACION, Alumnos, G
+ ente, Universidad Carlos III, es
+dn: uid=100493990,ou=GRADO EN INGENIERIA EN TECNOLOGIAS DE TELECOMUNICACION,ou
+ =Alumnos,ou=Gente,o=Universidad Carlos III,c=es
+
+# search result
+search: 2
+result: 0 Success
+
+# numResponses: 2
+# numEntries: 1

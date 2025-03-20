@@ -1,0 +1,51 @@
+[2025-03-20, 12:28:16] ldapsearch -x -H ldaps://ldap.lab.it.uc3m.es -b "ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es" "(&(cn=*JU*)(cn=*MAR*))" dn
+# extended LDIF
+#
+# LDAPv3
+# base <ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es> with scope subtree
+# filter: (&(cn=*JU*)(cn=*MAR*))
+# requesting: dn 
+#
+
+# 0066665, Alum, lab.it.uc3m.es
+dn: uid=0066665,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0363828, Alum, lab.it.uc3m.es
+dn: uid=0363828,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0429727, Alum, lab.it.uc3m.es
+dn: uid=0429727,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0439614, Alum, lab.it.uc3m.es
+dn: uid=0439614,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0429003, Alum, lab.it.uc3m.es
+dn: uid=0429003,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0429354, Alum, lab.it.uc3m.es
+dn: uid=0429354,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0496083, Alum, lab.it.uc3m.es
+dn: uid=0496083,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0509669, Alum, lab.it.uc3m.es
+dn: uid=0509669,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0523023, Alum, lab.it.uc3m.es
+dn: uid=0523023,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0522933, Alum, lab.it.uc3m.es
+dn: uid=0522933,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0522935, Alum, lab.it.uc3m.es
+dn: uid=0522935,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0475063, Alum, lab.it.uc3m.es
+dn: uid=0475063,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# search result
+search: 2
+result: 0 Success
+
+# numResponses: 13
+# numEntries: 12

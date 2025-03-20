@@ -1,0 +1,40 @@
+[2025-03-20, 11:30:57] ldapsearch -x -H ldaps://ldap.lab.it.uc3m.es -b "dc=lab,dc=it,dc=uc3m,dc=es" "(uid=0493990)"
+# extended LDIF
+#
+# LDAPv3
+# base <dc=lab,dc=it,dc=uc3m,dc=es> with scope subtree
+# filter: (uid=0493990)
+# requesting: ALL
+#
+
+# 0493990, Alum, lab.it.uc3m.es
+dn: uid=0493990,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+uid: 0493990
+cn: ALONSO HERREROS COPETE
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: sambaSamAccount
+objectClass: inetLocalMailRecipient
+loginShell: /bin/bash
+uidNumber: 493990
+gidNumber: 493990
+homeDirectory: /usr/lab/alum/0493990
+gecos: GRADO EN INGENIERIA EN TECNOLOGIAS DE TELECOMUNICACION
+sambaLogonTime: 0
+sambaLogoffTime: 2147483647
+sambaKickoffTime: 2147483647
+sambaPwdCanChange: 0
+sambaPwdMustChange: 2147483647
+sambaAcctFlags: [UX]
+sambaSID: S-1-5-21-3640221766-2347511451-2932192384-0493990
+mailLocalAddress: 0493990@lab.it.uc3m.es
+mailRoutingAddress: 100493990@alumnos.uc3m.es
+winProfile: win
+
+# search result
+search: 2
+result: 0 Success
+
+# numResponses: 2
+# numEntries: 1

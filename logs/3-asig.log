@@ -1,0 +1,1629 @@
+[2025-03-20, 11:25:29] ldapsearch -x -H ldaps://ldap.lab.it.uc3m.es -b "ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es" "(objectClass=*)"
+# extended LDIF
+#
+# LDAPv3
+# base <ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es> with scope subtree
+# filter: (objectClass=*)
+# requesting: ALL
+#
+
+# Asig, lab.it.uc3m.es
+dn: ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+objectClass: organizationalUnit
+ou: Asig
+
+# ircit, Asig, lab.it.uc3m.es
+dn: uid=ircit,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: ircit
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: sambaSamAccount
+objectClass: inetLocalMailRecipient
+uidNumber: 20225
+gidNumber: 1009
+gecos: Inteligencia en Redes de Comunicaciones (jvillena@it.uc3m.es)
+homeDirectory: /usr/lab/asig/ircit
+cn: Inteligencia en Redes de Comunicaciones (jvillena@it.uc3m.es)
+sambaLogonTime: 0
+sambaLogoffTime: 2147483647
+sambaKickoffTime: 2147483647
+sambaPwdCanChange: 0
+sambaPwdMustChange: 2147483647
+displayName: System User
+sambaSID: S-1-5-21-2748887225-2018921308-431133658-41450
+sambaAcctFlags: [UX]
+winProfile: win
+mailLocalAddress: ircit@lab.it.uc3m.es
+mailRoutingAddress: jvillena@it.uc3m.es
+loginShell: /bin/bash
+
+# lablarc, Asig, lab.it.uc3m.es
+dn: uid=lablarc,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: lablarc
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: sambaSamAccount
+objectClass: inetLocalMailRecipient
+responsible: alberto@it.uc3m.es, dlarra@it.uc3m.es
+uidNumber: 4600
+gidNumber: 1009
+gecos: Laboratorio de Arquitectura de Redes de Comunicaciones
+homeDirectory: /usr/lab/asig/lablarc
+cn: Laboratorio de Arquitectura de Redes de Comunicaciones
+sambaLogonTime: 0
+sambaLogoffTime: 2147483647
+sambaKickoffTime: 2147483647
+sambaPwdCanChange: 0
+sambaPwdMustChange: 2147483647
+displayName: System User
+sambaSID: S-1-5-21-2748887225-2018921308-431133658-10200
+sambaAcctFlags: [UX]
+winProfile: win
+mailRoutingAddress: alberto@it.uc3m.es
+mailLocalAddress: lablarc@lab.it.uc3m.es
+loginShell: /bin/bash
+
+# labscd, Asig, lab.it.uc3m.es
+dn: uid=labscd,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labscd
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+objectClass: sambaSamAccount
+responsible: cgr@it.uc3m.es
+gidNumber: 1009
+gecos: Sistemas de Comunicacion de Datos
+homeDirectory: /usr/lab/asig/labscd
+cn: Sistemas de Comunicacion de Datos
+uidNumber: 1055
+mailRoutingAddress: cgr@it.uc3m.es
+mailLocalAddress: labscd@it.uc3m.es
+sambaLogonTime: 0
+sambaLogoffTime: 2147483647
+sambaKickoffTime: 2147483647
+sambaPwdCanChange: 0
+sambaPwdMustChange: 2147483647
+sambaSID: S-1-5-21-3640221766-2347511451-2932192384-1014
+sambaAcctFlags: [UX]
+loginShell: /bin/bash
+
+# labrsci, Asig, lab.it.uc3m.es
+dn: uid=labrsci,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labrsci
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: sambaSamAccount
+objectClass: inetLocalMailRecipient
+responsible: maria@it.uc3m.es
+uidNumber: 505
+gidNumber: 1009
+gecos: Redes y Servicios de Comunicaciones I(Ing. Tec. Telecomunicac. esp. Sis
+ temas)
+homeDirectory: /usr/lab/asig/labrsci
+cn: Redes y Servicios de Comunicaciones I
+sambaLogonTime: 0
+sambaLogoffTime: 2147483647
+sambaKickoffTime: 2147483647
+sambaPwdCanChange: 0
+sambaPwdMustChange: 2147483647
+displayName: System User
+sambaSID: S-1-5-21-2748887225-2018921308-431133658-2010
+sambaAcctFlags: [UX]
+mailLocalAddress: labrsci@lab.it.uc3m.es
+mailRoutingAddress: maria@it.uc3m.es
+loginShell: /bin/bash
+
+# lablis, Asig, lab.it.uc3m.es
+dn: uid=lablis,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: lablis
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: sambaSamAccount
+objectClass: inetLocalMailRecipient
+responsible: isoto@it.uc3m.es
+uidNumber: 1061
+gidNumber: 1009
+gecos: Laboratorio de Ingenieria de Servicios (Ing. Telecomunicacion)
+cn: Laboratorio de Ingenieria de Servicios
+homeDirectory: /usr/lab/asig/lablis
+sambaLogonTime: 0
+sambaLogoffTime: 2147483647
+sambaKickoffTime: 2147483647
+sambaPwdCanChange: 0
+sambaPwdMustChange: 2147483647
+displayName: System User
+sambaSID: S-1-5-21-2748887225-2018921308-431133658-3122
+sambaAcctFlags: [UX]
+winProfile: win
+mailLocalAddress: lablis@lab.it.uc3m.es
+mailRoutingAddress: isoto@it.uc3m.es
+loginShell: /bin/bash
+
+# labro, Asig, lab.it.uc3m.es
+dn: uid=labro,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labro
+responsible: amarin@it.uc3m.es
+uidNumber: 6055
+gidNumber: 1009
+gecos: Redes de Ordenadores
+homeDirectory: /usr/lab/asig/labro
+cn: Redes de Ordenadores
+mailLocalAddress: labro@lab.it.uc3m.es
+mailRoutingAddress: amarin@it.uc3m.es
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+objectClass: sambaSamAccount
+sambaLogonTime: 0
+sambaLogoffTime: 2147483647
+sambaKickoffTime: 2147483647
+sambaPwdCanChange: 0
+sambaPwdMustChange: 2147483647
+sambaSID: S-1-5-21-3640221766-2347511451-2932192384-1015
+sambaAcctFlags: [UX]
+loginShell: /bin/bash
+
+# labro2, Asig, lab.it.uc3m.es
+dn: uid=labro2,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labro2
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+objectClass: sambaSamAccount
+gidNumber: 1009
+gecos: Redes de Ordenadores II 5o I.Informatica (responsable Celeste Campo - c
+ eleste@it.uc3m.es)
+homeDirectory: /usr/lab/asig/labro2
+cn:: UmVkZXMgZGUgT3JkZW5hZG9yZXMgSUkgNcK6IEkuSW5mb3Jtw6F0aWNhIChyZXNwb25zYWJsZ
+ SBDZWxlc3RlIENhbXBvIC0gY2VsZXN0ZUBpdC51YzNtLmVzKQ==
+uidNumber: 4561
+mailLocalAddress: labro2@lab.it.uc3m.es
+mailRoutingAddress: celeste@it.uc3m.es
+sambaLogonTime: 0
+sambaLogoffTime: 2147483647
+sambaKickoffTime: 2147483647
+sambaPwdCanChange: 0
+sambaPwdMustChange: 2147483647
+sambaSID: S-1-5-21-3640221766-2347511451-2932192384-1016
+sambaAcctFlags: [UX]
+loginShell: /bin/bash
+
+# labsi, Asig, lab.it.uc3m.es
+dn: uid=labsi,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labsi
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+objectClass: sambaSamAccount
+uidNumber: 60083
+gidNumber: 1009
+gecos: Servidores de Informacion (responsable Pedro J. Munoz - pedmume@it.uc3m
+ .es)
+homeDirectory: /usr/lab/asig/labsi
+cn:: U2Vydmlkb3JlcyBkZSBJbmZvcm1hY2nDs24gKHJlc3BvbnNhYmxlIFBlZHJvIEouIE11w7Fve
+ iAtIHBlZG11bWVAaXQudWMzbS5lcyk=
+mailLocalAddress: labsi@lab.it.uc3m.es
+mailRoutingAddress: pedmume@it.uc3m.es
+sambaLogonTime: 0
+sambaLogoffTime: 2147483647
+sambaKickoffTime: 2147483647
+sambaPwdCanChange: 0
+sambaPwdMustChange: 2147483647
+sambaSID: S-1-5-21-3640221766-2347511451-2932192384-1017
+sambaAcctFlags: [UX]
+loginShell: /bin/bash
+
+# labarc, Asig, lab.it.uc3m.es
+dn: uid=labarc,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn: Arquitectura de Redes de Comunicaciones (responsables - alberto@it.uc3m.es
+  dlarra@it.uc3m.es)
+gecos: Arquitectura de Redes de Comunicaciones (responsables - alberto@it.uc3m
+  .es dlarra@it.uc3m.es)
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labarc
+uid: labarc
+uidNumber: 4200
+winProfile: win
+mailLocalAddress: labarc@lab.it.uc3m.es
+mailRoutingAddress: alberto@it.uc3m.es
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+objectClass: sambaSamAccount
+sambaLogonTime: 0
+sambaLogoffTime: 2147483647
+sambaKickoffTime: 2147483647
+sambaPwdCanChange: 0
+sambaPwdMustChange: 2147483647
+sambaSID: S-1-5-21-3640221766-2347511451-2932192384-1018
+sambaAcctFlags: [UX]
+loginShell: /bin/bash
+
+# labrm, Asig, lab.it.uc3m.es
+dn: uid=labrm,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labrm
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+objectClass: sambaSamAccount
+sambaLogonTime: 0
+sambaLogoffTime: 2147483647
+sambaKickoffTime: 2147483647
+sambaPwdCanChange: 0
+sambaPwdMustChange: 2147483647
+sambaSID: S-1-5-21-3640221766-2347511451-2932192384-1019
+sambaAcctFlags: [UX]
+uidNumber: 4562
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labrm
+gecos: Redes Multimedia I.Tecnica de Imagen y Sonido (responsable - banchs@inv
+ .it.uc3m.es)
+mailLocalAddress: labrm@lab.it.uc3m.es
+mailRoutingAddress: banchs@inv.it.uc3m.es
+cn: Redes Multimedia del Grado en Ing. de Sonido e Imagen (responsable - banch
+ s@inv.it.uc3m.es)
+loginShell: /bin/bash
+
+# labttlat, Asig, lab.it.uc3m.es
+dn: uid=labttlat,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labttlat
+cn:: TGFib3JhdG9yaW8gZGUgQXBsaWNhY2lvbmVzIFRlbGVtw6F0aWNhcyAoMyBJVFQtVGVsZW3Do
+ XRpY2Ep
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+objectClass: sambaSamAccount
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labttlat
+gecos: Laboratorio de Aplicaciones Telematicas (3 ITT-Telematica)
+uidNumber: 1187
+mailLocalAddress: labttlat@lab.it.uc3m.es
+mailRoutingAddress: jaf@it.uc3m.es
+sambaLogonTime: 0
+sambaLogoffTime: 2147483647
+sambaKickoffTime: 2147483647
+sambaPwdCanChange: 0
+sambaPwdMustChange: 2147483647
+sambaSID: S-1-5-21-3640221766-2347511451-2932192384-1020
+sambaAcctFlags: [UX]
+loginShell: /bin/bash
+
+# labswc, Asig, lab.it.uc3m.es
+dn: uid=labswc,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labswc
+cn: Software de comunicaciones
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: sambaSamAccount
+objectClass: inetLocalMailRecipient
+uidNumber: 2028
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labswc
+gecos: Software de comunicaciones,xxxx,91-624 5949,5949,florina@it.uc3m.es
+sambaLogonTime: 0
+sambaLogoffTime: 2147483647
+sambaKickoffTime: 2147483647
+sambaPwdCanChange: 0
+sambaPwdMustChange: 2147483647
+displayName: System User
+sambaSID: S-1-5-21-2748887225-2018921308-431133658-5056
+sambaAcctFlags: [UX]
+winProfile: win
+mailLocalAddress: labswc@lab.it.uc3m.es
+mailRoutingAddress: florina@it.uc3m.es
+loginShell: /bin/bash
+
+# labfimitt, Asig, lab.it.uc3m.es
+dn: uid=labfimitt,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labfimitt
+cn:: Rmx1am9zIGRlIEluZm9ybWFjacOzbiBNdWx0aW1lZGlhIChJVFQgSW1hZ2VuIHkgU29uaWRvK
+ Q==
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+objectClass: sambaSamAccount
+uidNumber: 2039
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labfimitt
+gecos: Flujos de Informacion Multimedia (ITT Imagen y Sonido),91-624 xxxx,xxxx
+ ,,ividal@inv.it.uc3m.es
+mailLocalAddress: labfimitt@lab.it.uc3m.es
+mailRoutingAddress: ividal@inv.it.uc3m.es
+sambaLogonTime: 0
+sambaLogoffTime: 2147483647
+sambaKickoffTime: 2147483647
+sambaPwdCanChange: 0
+sambaPwdMustChange: 2147483647
+sambaSID: S-1-5-21-3640221766-2347511451-2932192384-1021
+sambaAcctFlags: [UX]
+loginShell: /bin/bash
+
+# labsi2, Asig, lab.it.uc3m.es
+dn: uid=labsi2,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labsi2
+cn: Servidores de Informacion (jfernandezgalvan@cyii.es)
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+objectClass: sambaSamAccount
+uidNumber: 2043
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labsi2
+gecos: Servidores de Informacion (jfernandezgalvan@cyii.es),91-624 xxxx,xxxx,,
+ munozm@inv.it.uc3m.es
+winProfile: win
+mailLocalAddress: labsi2@lab.it.uc3m.es
+mailRoutingAddress: munoz@inv.it.uc3m.es
+sambaLogonTime: 0
+sambaLogoffTime: 2147483647
+sambaKickoffTime: 2147483647
+sambaPwdCanChange: 0
+sambaPwdMustChange: 2147483647
+sambaSID: S-1-5-21-3640221766-2347511451-2932192384-1022
+sambaAcctFlags: [UX]
+loginShell: /bin/bash
+
+# labsimitis, Asig, lab.it.uc3m.es
+dn: uid=labsimitis,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labsimitis
+cn: Servidores de Informacion Multimedia(pbasanta@it.uc3m.es)
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: sambaSamAccount
+objectClass: inetLocalMailRecipient
+uidNumber: 2046
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labsimitis
+gecos: Servidores de Informacion Multimedia(pbasanta@it.uc3m.es),91-624 xxxx,x
+ xxx,,pbasanta@it.uc3m.es
+mailLocalAddress: labsimitis@lab.it.uc3m.es
+mailRoutingAddress: pbasanta@it.uc3m.es
+sambaLogonTime: 0
+sambaLogoffTime: 2147483647
+sambaKickoffTime: 2147483647
+sambaPwdCanChange: 0
+sambaPwdMustChange: 2147483647
+sambaAcctFlags: [UX]
+sambaSID: S-1-5-21-1291701938-3662747142-2356795268 -2046
+winProfile: win
+loginShell: /bin/bash
+
+# labrsc-sa, Asig, lab.it.uc3m.es
+dn: uid=labrsc-sa,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labrsc-sa
+cn:: UmVkZXMgeSBTZXJ2aWNpb3MgZGUgQ29tdW5pY2FjaW9uZXMgZGVsIEdyYWRvIGVuIEluZ2Vua
+ WVyw61hIGRlIFNpc3RlbWFzIEF1ZGlvdmlzdWFsZXM=
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labrsc-sa
+gecos: Redes y Servicios de Comunicaciones del Grado en Ingenieria de Sistemas
+  Audiovisuales,xxxx,xxxx,+34 91 624 xxxx,isoto@it.uc3m.es,res
+uidNumber: 1094
+mailLocalAddress: labrsc-sa@lab.it.uc3m.es
+mailRoutingAddress: isoto@it.uc3m.es
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+objectClass: sambaSamAccount
+sambaLogonTime: 0
+sambaLogoffTime: 2147483647
+sambaKickoffTime: 2147483647
+sambaPwdCanChange: 0
+sambaPwdMustChange: 2147483647
+sambaSID: S-1-5-21-3640221766-2347511451-2932192384-1024
+sambaAcctFlags: [UX]
+loginShell: /bin/bash
+
+# labrsc-tel, Asig, lab.it.uc3m.es
+dn: uid=labrsc-tel,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labrsc-tel
+cn:: UmVkZXMgeSBTZXJ2aWNpb3MgZGUgQ29tdW5pY2FjaW9uZXMgZGVsIEdyYWRvIGVuIEluZ2Vua
+ WVyw61hIFRlbGVtYXRpY2E=
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labrsc-tel
+gecos: Redes y Servicios de Comunicaciones del Grado en Ingenieria Telematica,
+ xxxx,xxxx,+34 91 624 xxxx,maria@it.uc3m.es,res
+uidNumber: 1224
+mailLocalAddress: labrsc-tel@lab.it.uc3m.es
+mailRoutingAddress: maria@it.uc3m.es
+sambaLogonTime: 0
+sambaLogoffTime: 2147483647
+sambaKickoffTime: 2147483647
+sambaPwdCanChange: 0
+sambaPwdMustChange: 2147483647
+sambaSID: S-1-5-21-3640221766-2347511451-2932192384-1025
+sambaAcctFlags: [UX]
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+objectClass: sambaSamAccount
+loginShell: /bin/bash
+
+# labrsc-sc, Asig, lab.it.uc3m.es
+dn: uid=labrsc-sc,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labrsc-sc
+cn:: UmVkZXMgeSBTZXJ2aWNpb3MgZGUgQ29tdW5pY2FjaW9uZXMgZGVsIEdyYWRvIGVuIEluZ2Vua
+ WVyw61hIGRlIFNpc3RlbWFzIGRlIENvbXVuaWNhY2lvbmVz
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labrsc-sc
+uidNumber: 1223
+gecos: Redes y Servicios de Comunicaciones del Grado en Ingenieria de Sistemas
+  de Comunicaciones,xxxx,xxxx,+34 91 624 xxxx,acrumin@it.uc3m.es,
+mailLocalAddress: labrsc-sc@lab.it.uc3m.es
+mailRoutingAddress: acrumin@it.uc3m.es
+sambaLogonTime: 0
+sambaLogoffTime: 2147483647
+sambaKickoffTime: 2147483647
+sambaPwdCanChange: 0
+sambaPwdMustChange: 2147483647
+sambaSID: S-1-5-21-3640221766-2347511451-2932192384-1026
+sambaAcctFlags: [UX]
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+objectClass: sambaSamAccount
+loginShell: /bin/bash
+
+# labtr, Asig, lab.it.uc3m.es
+dn: uid=labtr,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labtr
+cn: Teoria de Redes
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: sambaSamAccount
+objectClass: inetLocalMailRecipient
+responsible: pablo@it.uc3m.es
+uidNumber: 1240
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labtr
+gecos: Teoria de Redes
+sambaLogonTime: 0
+sambaLogoffTime: 2147483647
+sambaKickoffTime: 2147483647
+sambaPwdCanChange: 0
+sambaPwdMustChange: 2147483647
+sambaAcctFlags: [UX]
+sambaSID: S-1-5-21-2665664082-3375157015-3220050151-3480
+winProfile: win
+mailLocalAddress: labtr@lab.it.uc3m.es
+mailRoutingAddress: pablo@it.uc3m.es
+loginShell: /bin/bash
+
+# labgasii, Asig, lab.it.uc3m.es
+dn: uid=labgasii,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labgasii
+uidNumber: 1206
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labgasii
+mailLocalAddress: labgasii@lab.it.uc3m.es
+sambaLogonTime: 0
+sambaLogoffTime: 2147483647
+sambaKickoffTime: 2147483647
+sambaPwdCanChange: 0
+sambaPwdMustChange: 2147483647
+sambaSID: S-1-5-21-3640221766-2347511451-2932192384-1027
+sambaAcctFlags: [UX]
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+objectClass: sambaSamAccount
+cn:: QXJxdWl0ZWN0dXJhIGRlIFNpc3RlbWFzIElJIGRlIEdyYWRvIGVuIEluZ2VuaWVyw61hIFRlb
+ GVtw6F0aWNh
+gecos: Arquitectura de Sistemas II de Grado en Ingenieria Telematica,xxxx,xxxx
+ ,+34 91 624 xxxx,,mvalls@it.uc3m.es
+mailRoutingAddress: lpuente@it.uc3m.es
+loginShell: /bin/bash
+
+# labswc-it, Asig, lab.it.uc3m.es
+dn: uid=labswc-it,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labswc-it
+cn:: U29mdHdhcmUgZGUgY29tdW5pY2FjaW9uZXMoSW5nZW5pZXLDrWEgVGVsZW3DoXRpY2Ep
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+objectClass: sambaSamAccount
+uidNumber: 1253
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labswc-it
+gecos: Software de comunicaciones(Ingenieria Telematica),xxxx,xxxx,+34 91 624 
+ xxxx,,pbasanta@it.uc3m.es
+mailLocalAddress: labswc-it@lab.it.uc3m.es
+mailRoutingAddress: pbasanta@it.uc3m.es
+sambaLogonTime: 0
+sambaLogoffTime: 2147483647
+sambaKickoffTime: 2147483647
+sambaPwdCanChange: 0
+sambaPwdMustChange: 2147483647
+sambaSID: S-1-5-21-3640221766-2347511451-2932192384-1028
+sambaAcctFlags: [UX]
+loginShell: /bin/bash
+
+# labgrysca, Asig, lab.it.uc3m.es
+dn: uid=labgrysca,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labgrysca
+cn:: UmVkZXMgeSBTZXJ2aWNpb3MgZGUgQ29tdW5pY2FjaW9uZXMgQXZhbnphZGFzIDMgR3JhZG8gV
+ GVsZW3DoXRpY2E=
+uidNumber: 1345
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labgrysca
+mailLocalAddress: labgrysca@lab.it.uc3m.es
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+objectClass: sambaSamAccount
+gecos: Redes y Servicios de Comunicaciones Avanzadas 3 Grado Telematica,xxxx,x
+ xxx,+34 91 624 xxxx,,cjbc@it.uc3m.es
+mailRoutingAddress: cjbc@it.uc3m.es
+sambaLogonTime: 0
+sambaLogoffTime: 2147483647
+sambaKickoffTime: 2147483647
+sambaPwdCanChange: 0
+sambaPwdMustChange: 2147483647
+sambaSID: S-1-5-21-3640221766-2347511451-2932192384-1029
+sambaAcctFlags: [UX]
+loginShell: /bin/bash
+
+# labgtcon, Asig, lab.it.uc3m.es
+dn: uid=labgtcon,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labgtcon
+uidNumber: 1356
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labgtcon
+mailLocalAddress: labgtcon@lab.it.uc3m.es
+mailRoutingAddress: acrumin@it.uc3m.es
+sambaLogonTime: 0
+sambaLogoffTime: 2147483647
+sambaKickoffTime: 2147483647
+sambaPwdCanChange: 0
+sambaPwdMustChange: 2147483647
+sambaSID: S-1-5-21-3640221766-2347511451-2932192384-1030
+sambaAcctFlags: [UX]
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+objectClass: sambaSamAccount
+cn:: Q29ubXV0YWNpw7Nu
+gecos: Conmutacion,xxxx,xxxx,+34 91 624 xxxx,,acrumin@it.uc3m.es
+loginShell: /bin/bash
+
+# labgaam, Asig, lab.it.uc3m.es
+dn: uid=labgaam,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labgaam
+cn:: QXBsaWNhY2lvbmVzIE11bHRpbWVkaWEgM2VyIEN1cnNvIEdyYWRvIEluZ2VuaWVyw61hIGRlI
+ FNpc3RlbWFzIEF1ZGlvdmlzdWFsZXM=
+uidNumber: 1358
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labgaam
+gecos: Aplicaciones Multimedia 3er Curso Grado Ingenieria de Sistemas Audiovis
+ uales,xxxx,xxxx,+34 91 624 xxxx,,rcrespo@it.uc3m.es
+mailLocalAddress: labgaam@lab.it.uc3m.es
+sambaLogonTime: 0
+sambaLogoffTime: 2147483647
+sambaKickoffTime: 2147483647
+sambaPwdCanChange: 0
+sambaPwdMustChange: 2147483647
+sambaSID: S-1-5-21-3640221766-2347511451-2932192384-1031
+sambaAcctFlags: [UX]
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+objectClass: sambaSamAccount
+mailRoutingAddress: amarin@it.uc3m.es
+loginShell: /bin/bash
+
+# labgriym, Asig, lab.it.uc3m.es
+dn: uid=labgriym,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labgriym
+cn: Redes Inalambricas y moviles
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: sambaSamAccount
+objectClass: inetLocalMailRecipient
+uidNumber: 1082
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labgriym
+gecos: Redes Inalambricas y moviles,xxxx,xxxx,+34 91 6xxxx,,cjbc@it.uc3m.es
+sambaLogonTime: 0
+sambaLogoffTime: 2147483647
+sambaKickoffTime: 2147483647
+sambaPwdCanChange: 0
+sambaPwdMustChange: 2147483647
+sambaAcctFlags: [UX]
+sambaSID: S-1-5-21-2665664082-3375157015-3220050151 -1082
+winProfile: win
+mailLocalAddress: labgriym@lab.it.uc3m.es
+mailRoutingAddress: cjbc@it.uc3m.es
+loginShell: /bin/bash
+
+# labgaw, Asig, lab.it.uc3m.es
+dn: uid=labgaw,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labgaw
+cn: Aplicaciones Web Grados Sistema de Comunicaciones y Audiovisuales
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: sambaSamAccount
+objectClass: inetLocalMailRecipient
+uidNumber: 1362
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labgaw
+gecos: Aplicaciones Web Grados Sistema de Comunicaciones y Audiovisuales,xxxx,
+ xxxx,+34 91 624 xxxx,,florina@it.uc3m.es
+sambaLogonTime: 0
+sambaLogoffTime: 2147483647
+sambaKickoffTime: 2147483647
+sambaPwdCanChange: 0
+sambaPwdMustChange: 2147483647
+sambaAcctFlags: [UX]
+sambaSID: S-1-5-21-2665664082-3375157015-3220050151 -1362
+winProfile: win
+mailLocalAddress: labgaw@lab.it.uc3m.es
+mailRoutingAddress: florina@it.uc3m.es
+loginShell: /bin/bash
+
+# labgrsc, Asig, lab.it.uc3m.es
+dn: uid=labgrsc,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labgrsc
+cn:: UmVkZXMgeSBTZXJ2aWNpb3MgZGUgQ29tdW5pY2FjaW9uZXMgZGVsIEdyYWRvIFRlY25vbG9nw
+ 61hcyBkZSBUZWxlY29tdW5pY2FjacOzbg==
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: sambaSamAccount
+objectClass: inetLocalMailRecipient
+uidNumber: 1363
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labgrsc
+gecos: Redes y Servicios de Comunicaciones del Grado Tecnologias de Telecomuni
+ cacion,xxxx,xxxx,+34 91 624 xxxx,,maria@it.uc3m.es
+sambaLogonTime: 0
+sambaLogoffTime: 2147483647
+sambaKickoffTime: 2147483647
+sambaPwdCanChange: 0
+sambaPwdMustChange: 2147483647
+sambaAcctFlags: [UX]
+sambaSID: S-1-5-21-2665664082-3375157015-3220050151 -1363
+winProfile: win
+mailLocalAddress: labgrsc@lab.it.uc3m.es
+mailRoutingAddress: maria@it.uc3m.es
+loginShell: /bin/bash
+
+# labgro, Asig, lab.it.uc3m.es
+dn: uid=labgro,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labgro
+cn:: UmVkZXMgZGUgT3JkZW5hZG9yZXMgR3JhZG8gZGUgSW5nZW5pZXLDrWEgSW5mb3Jtw6F0aWNh
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+objectClass: sambaSamAccount
+uidNumber: 1379
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labgro
+gecos: Redes de Ordenadores Grado de Ingenieria Informatica,xxxx,xxxx,+34 91 6
+ 24 xxxx,,lpgonzal@inv.it.uc3m.es
+mailLocalAddress: labgro@lab.it.uc3m.es
+mailRoutingAddress: lpgonzal@inv.it.uc3m.es
+sambaLogonTime: 0
+sambaLogoffTime: 2147483647
+sambaKickoffTime: 2147483647
+sambaPwdCanChange: 0
+sambaPwdMustChange: 2147483647
+sambaSID: S-1-5-21-3640221766-2347511451-2932192384-1032
+sambaAcctFlags: [UX]
+loginShell: /bin/bash
+
+# labgamm, Asig, lab.it.uc3m.es
+dn: uid=labgamm,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labgamm
+cn: asignatura aplicaciones multimedia (del Grado en Ing. de Sistemas Audiovis
+ uales)
+uidNumber: 1382
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labgamm
+gecos: asignatura aplicaciones multimedia (del Grado en Ing. de Sistemas Audio
+ visuales),xxxx,xxxx,+34 91 624 xxxx,,Raquel M. Crespo Garcia, rcrespo@it.uc3m
+ .es
+mailLocalAddress: labgamm@lab.it.uc3m.es
+mailRoutingAddress: rcrespo@it.uc3m.es
+sambaLogonTime: 0
+sambaLogoffTime: 2147483647
+sambaKickoffTime: 2147483647
+sambaPwdCanChange: 0
+sambaPwdMustChange: 2147483647
+sambaSID: S-1-5-21-3640221766-2347511451-2932192384-1033
+sambaAcctFlags: [UX]
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+objectClass: sambaSamAccount
+loginShell: /bin/bash
+
+# labgcd, Asig, lab.it.uc3m.es
+dn: uid=labgcd,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labgcd
+uidNumber: 1389
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labgcd
+gecos: Computacion Distribuida,xxxx,xxxx,+34 91 624 xxxx,,iestevez@inv.it.uc3m
+ .es
+cn:: Q29tcHV0YWNpw7NuIERpc3RyaWJ1aWRhIEcuSS5UZWNub2xvZ8OtYXMgVGVsZWNvbXVuaWNhY
+ 2lvbmVz
+mailLocalAddress: labgcd@lab.it.uc3m.es
+sambaLogonTime: 0
+sambaLogoffTime: 2147483647
+sambaKickoffTime: 2147483647
+sambaPwdCanChange: 0
+sambaPwdMustChange: 2147483647
+sambaSID: S-1-5-21-3640221766-2347511451-2932192384-1034
+sambaAcctFlags: [UX]
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+objectClass: sambaSamAccount
+mailRoutingAddress: dds@inv.it.uc3m.es
+loginShell: /bin/bash
+
+# wlit, Asig, lab.it.uc3m.es
+dn: uid=wlit,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: wlit
+cn: Cuenta de acceso wireless
+loginShell: /bin/false
+uidNumber: 1392
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/wlit
+gecos: Cuenta de acceso wireless,xxxx,9959,+34 91 624 9959,,
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: sambaSamAccount
+sambaLogonTime: 0
+sambaLogoffTime: 2147483647
+sambaKickoffTime: 2147483647
+sambaPwdCanChange: 0
+sambaPwdMustChange: 2147483647
+sambaSID: S-1-5-21-1291701938-3662747142-2356795268-1003
+sambaAcctFlags: [UX]
+winProfile: win
+
+# labgastt, Asig, lab.it.uc3m.es
+dn: uid=labgastt,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labgastt
+cn:: QXJxdWl0ZWN0dXJhIGRlIFNpc3RlbWFzIGRlIEdyYWRvIGVuIFRlY25vbG9nw61hcyBkZSBsY
+ XMgVGVsZWNvbXVuaWNhY2lvbmVz
+uidNumber: 1393
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labgastt
+gecos: Arquitectura de Sistemas de Grado en Tecnologias de las Telecomunicacio
+ nes,xxxx,xxxx,+34 91 624 xxxx,,iestevez@inv.it.uc3m.es
+mailLocalAddress: labgastt@lab.it.uc3m.es
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+objectClass: sambaSamAccount
+sambaLogonTime: 0
+sambaLogoffTime: 2147483647
+sambaKickoffTime: 2147483647
+sambaPwdCanChange: 0
+sambaPwdMustChange: 2147483647
+sambaSID: S-1-5-21-3640221766-2347511451-2932192384-1035
+sambaAcctFlags: [UX]
+loginShell: /bin/bash
+mailRoutingAddress: pemoreno@it.uc3m.es
+
+# labgcro, Asig, lab.it.uc3m.es
+dn: uid=labgcro,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labgcro
+cn: Redes de Ordenadores Grado de Ingenieria Informatica Colmenarejo
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+objectClass: sambaSamAccount
+uidNumber: 1401
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labgcro
+gecos: Redes de Ordenadores Grado de Ingenieria Informatica Colmenarejo,xxxx,x
+ xxx,+34 91 624 xxxx,,ampastor@it.uc3m.es
+mailLocalAddress: labgcro@lab.it.uc3m.es
+mailRoutingAddress: ampastor@it.uc3m.es
+sambaLogonTime: 0
+sambaLogoffTime: 2147483647
+sambaKickoffTime: 2147483647
+sambaPwdCanChange: 0
+sambaPwdMustChange: 2147483647
+sambaSID: S-1-5-21-3640221766-2347511451-2932192384-1036
+sambaAcctFlags: [UX]
+loginShell: /bin/bash
+
+# labgimi, Asig, lab.it.uc3m.es
+dn: uid=labgimi,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labgimi
+cn: Gestion de la informacion multimedia en internet
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+objectClass: sambaSamAccount
+uidNumber: 1079
+gidNumber: 1006
+homeDirectory: /usr/lab/asig/labgimi
+gecos: Gestion de la informacion multimedia en internet,lluis@it.uc3m.es
+mailLocalAddress: labgimi@lab.it.uc3m.es
+mailRoutingAddress: lluis@it.uc3m.es
+sambaLogonTime: 0
+sambaLogoffTime: 2147483647
+sambaKickoffTime: 2147483647
+sambaPwdCanChange: 0
+sambaPwdMustChange: 2147483647
+sambaSID: S-1-5-21-3640221766-2347511451-2932192384-1037
+sambaAcctFlags: [UX]
+loginShell: /bin/bash
+
+# labgps, Asig, lab.it.uc3m.es
+dn: uid=labgps,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labgps
+cn: Programacion de sistemas
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+loginShell: /bin/bash
+uidNumber: 1171
+gidNumber: 1118
+homeDirectory: /usr/lab/asig/labgps
+gecos: Programacion de sistemas,xxxx,xxxx,+34 91 624 xxxx,,calario@it.uc3m.es
+
+# labaptel, Asig, lab.it.uc3m.es
+dn: uid=labaptel,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labaptel
+cn: Aplicaciones Telematicas
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+loginShell: /bin/bash
+uidNumber: 1173
+homeDirectory: /usr/lab/asig/labaptel
+gecos: Aplicaciones Telematicas,xxxx,xxxx,+34 91 624 xxxx,,cgr@inv.it.uc3m.es
+gidNumber: 1009
+
+# labgcd1, Asig, lab.it.uc3m.es
+dn: uid=labgcd1,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labgcd1
+cn:: Q29tcHV0YWNpw7NuIERpc3RyaWJ1aWRh
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+uidNumber: 1194
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labgcd1
+gecos: Computacion Distribuida,xxxx,xxxx,+34 91 624 xxxx,,dds@inv.it.uc3m.es
+loginShell: /bin/bash
+
+# labgcd2, Asig, lab.it.uc3m.es
+dn: uid=labgcd2,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labgcd2
+cn:: Q29tcHV0YWNpw7NuIERpc3RyaWJ1aWRh
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+uidNumber: 1195
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labgcd2
+gecos: Computacion Distribuida,xxxx,xxxx,+34 91 624 xxxx,,dds@inv.it.uc3m.es
+loginShell: /bin/bash
+
+# labgaramc, Asig, lab.it.uc3m.es
+dn: uid=labgaramc,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labgaramc
+cn: Arquitectura de redes de acceso y medio compartido
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+loginShell: /bin/bash
+uidNumber: 1027
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labgaramc
+mailLocalAddress: labgaramc@lab.it.uc3m.es
+mailRoutingAddress: banchs@inv.it.uc3m.es
+gecos: Arquitectura de redes de acceso y medio compartido,xxxx,xxxx,+34 91 624
+  xxxx,,banchs@inv.it.uc3m.es
+
+# labgpfat, Asig, lab.it.uc3m.es
+dn: uid=labgpfat,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labgpfat
+cn:: UHJvY2VzYW1pZW50byBkZSBGb3JtYXRvcyBlbiBBcGxpY2FjaW9uZXMgVGVsZW3Dg8KhdGljY
+ XM=
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+loginShell: /bin/bash
+uidNumber: 1028
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labgpfat
+gecos: Procesamiento de Formatos en Aplicaciones Telematicas,xxxx,xxxx,+34 91 
+ 624 xxxx,,luiss@inv.it.uc3m.es
+mailLocalAddress: labgpfat@lab.it.uc3m.es
+mailRoutingAddress: luiss@inv.it.uc3m.es
+
+# labgfsc, Asig, lab.it.uc3m.es
+dn: uid=labgfsc,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labgfsc
+cn: Fundamentos Seguridad en Comunicaciones
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+loginShell: /bin/bash
+uidNumber: 1029
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labgfsc
+mailLocalAddress: labgfsc@lab.it.uc3m.es
+gecos: Fundamentos Seguridad en Comunicaciones,xxxx,xxxx,+34 91 624 xxxx,,mmun
+ oz@it.uc3m.es
+mailRoutingAddress: munozm@it.uc3m.es
+
+# labgas, Asig, lab.it.uc3m.es
+dn: uid=labgas,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labgas
+cn: Arquitectura de Sistemas
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+loginShell: /bin/bash
+uidNumber: 1030
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labgas
+gecos: Arquitectura de Sistemas,xxxx,xxxx,+34 91 624 xxxx,,mbibanez@it.uc3m.es
+mailLocalAddress: labgas@lab.it.uc3m.es
+mailRoutingAddress: mbibanez@it.uc3m.es
+
+# labgars, Asig, lab.it.uc3m.es
+dn: uid=labgars,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labgars
+cn: Arquitectura de Sistemas
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+loginShell: /bin/bash
+uidNumber: 1031
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labgars
+gecos: Arquitectura de Sistemas,xxxx,xxxx,+34 91 624 xxxx,,mvalls@it.uc3m.es
+mailLocalAddress: labgars@lab.it.uc3m.es
+mailRoutingAddress: mvalls@it.uc3m.es
+
+# labgaramcgtt, Asig, lab.it.uc3m.es
+dn: uid=labgaramcgtt,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labgaramcgtt
+cn: Arquitectura de Redes de Acceso y Medio Compartido
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+loginShell: /bin/bash
+uidNumber: 1032
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labgaramcgtt
+gecos: Arquitectura de Redes de Acceso y Medio Compartido,xxxx,xxxx,+34 91 624
+  xxxx,,guerrero@it.uc3m.es
+mailLocalAddress: labgaramcgtt@lab.it.uc3m.es
+mailRoutingAddress: guerrero@it.uc3m.es
+
+# labgdat, Asig, lab.it.uc3m.es
+dn: uid=labgdat,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labgdat
+cn:: RGlzZcODwrFvIGRlIGFwbGljYWNpb25lcyB0ZWxlbcODwqF0aWNhcw==
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+loginShell: /bin/bash
+uidNumber: 1033
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labgdat
+gecos: Diseno de aplicaciones telematicas,xxxx,xxxx,+34 91 624 xxxx,,pedmume@i
+ nv.it.uc3m.es
+mailLocalAddress: labgdat@lab.it.uc3m.es
+mailRoutingAddress: pedmume@inv.it.uc3m.es
+
+# labarciot, Asig, lab.it.uc3m.es
+dn: uid=labarciot,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labarciot
+cn: Lab. Arquitectura de redes IoT
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+loginShell: /bin/bash
+uidNumber: 1034
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labarciot
+gecos: Lab. Arquitectura de redes IoT,xxxx,xxxx,+34 91 624 xxxx,,isoto@it.uc3m
+ .es
+mailLocalAddress: labarciot@lab.it.uc3m.es
+mailRoutingAddress: isoto@it.uc3m.es
+winProfile: yes
+
+# labgcd3, Asig, lab.it.uc3m.es
+dn: uid=labgcd3,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labgcd3
+cn: Computacion Distribuida
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+loginShell: /bin/bash
+uidNumber: 1035
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labgcd3
+gecos: Computacion Distribuida,xxxx,xxxx,+34 91 624 xxxx,,eurubiod@inv.it.uc3m
+ .es
+mailLocalAddress: labgcd3@lab.it.uc3m.es
+mailRoutingAddress: eurubiod@inv.it.uc3m.es
+
+# labmri5g, Asig, lab.it.uc3m.es
+dn: uid=labmri5g,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labmri5g
+cn:: UmVkZXMgSW5hbMODwqFtYnJpY2FzIHkgNUcgZGVsIE3Dg8Khc3RlciBVbml2ZXJzaXRhcmlvI
+ GVuIEluZHVzdHJpYSBDb25lY3RhZGEgNC4w
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+loginShell: /bin/bash
+uidNumber: 1036
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labmri5g
+gecos: Redes Inalambricas y 5G del Master Universitario en Industria Conectada
+  4.0,xxxx,xxxx,+34 91 624 xxxx,,pablo@inv.it.uc3m.es
+mailLocalAddress: labmri5g@lab.it.uc3m.es
+mailRoutingAddress: pablo@inv.it.uc3m.es
+
+# labgriym2, Asig, lab.it.uc3m.es
+dn: uid=labgriym2,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labgriym2
+cn: Redes Inalambricas y moviles
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+uidNumber: 1058
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labgriym2
+gecos: Redes Inalambricas y moviles,xxxx,xxxx,+34 91 6xxxx,,aoliva@it.uc3m.es
+mailLocalAddress: labgriym2@lab.it.uc3m.es
+mailRoutingAddress: aoliva@it.uc3m.es
+loginShell: /bin/bash
+
+# labgred, Asig, lab.it.uc3m.es
+dn: uid=labgred,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labgred
+cn: Redes de Ordenadores en Ing. Informatica
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+loginShell: /bin/bash
+uidNumber: 1037
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labgred
+gecos: Redes de Ordenadores en Ing. Informatica,xxxx,xxxx,+34 91 624 xxxx,,fva
+ lera@inv.it.uc3m.es
+mailLocalAddress: labgred@lab.it.uc3m.es
+mailRoutingAddress: fvalera@inv.it.uc3m.es
+
+# labgaramce, Asig, lab.it.uc3m.es
+dn: uid=labgaramce,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labgaramce
+cn: Arquitectura de redes de acceso y medio compartido
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+loginShell: /bin/bash
+uidNumber: 1038
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labgaramce
+gecos: Arquitectura de redes de acceso y medio compartido,xxxx,xxxx,+34 91 624
+  xxxx,,jgr@inv.it.uc3m.es
+mailLocalAddress: labgaramce@lab.it.uc3m.es
+mailRoutingAddress: jgr@inv.it.uc3m.es
+
+# labaptel1, Asig, lab.it.uc3m.es
+dn: uid=labaptel1,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labaptel1
+cn:: QXBsaWNhY2lvbmVzIFRlbGVtw6F0aWNhcw==
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+loginShell: /bin/bash
+uidNumber: 1039
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labaptel1
+gecos: Aplicaciones Telematicas,xxxx,xxxx,+34 91 624 xxxx,,dds@inv.it.uc3m.es
+mailLocalAddress: labaptel1@lab.it.uc3m.es
+mailRoutingAddress: dds@inv.it.uc3m.es
+
+# labaptel2, Asig, lab.it.uc3m.es
+dn: uid=labaptel2,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labaptel2
+cn:: QXBsaWNhY2lvbmVzIFRlbGVtw6F0aWNhcw==
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+loginShell: /bin/bash
+uidNumber: 1040
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labaptel2
+gecos: Aplicaciones Telematicas,xxxx,xxxx,+34 91 624 xxxx,,dds@inv.it.uc3m.es
+mailLocalAddress: labaptel2@lab.it.uc3m.es
+mailRoutingAddress: dds@inv.it.uc3m.es
+
+# labaptel3, Asig, lab.it.uc3m.es
+dn: uid=labaptel3,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labaptel3
+cn:: QXBsaWNhY2lvbmVzIFRlbGVtw6F0aWNhcw==
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+loginShell: /bin/bash
+uidNumber: 1041
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labaptel3
+gecos: Aplicaciones Telematicas,xxxx,xxxx,+34 91 624 xxxx,,dds@inv.it.uc3m.es
+mailLocalAddress: labaptel3@lab.it.uc3m.es
+mailRoutingAddress: dds@inv.it.uc3m.es
+
+# labmsma, Asig, lab.it.uc3m.es
+dn: uid=labmsma,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labmsma
+cn:: U2VydmljaW9zIE11bHRpbWVkaWEgQXZhbnphZG9zIGRlbCBNw6FzdGVyIGRlIEluZ2VuaWVyw
+ 61hIGRlIFRlbGVjb211bmljYWNpb24=
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+loginShell: /bin/bash
+uidNumber: 1042
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labmsma
+gecos: Servicios Multimedia Avanzados del Master de Ingenieria de Telecomunica
+ cion,xxxx,xxxx,+34 91 624 xxxx,,mario@inv.it.uc3m.es
+mailLocalAddress: labmsma@lab.it.uc3m.es
+mailRoutingAddress: mario@inv.it.uc3m.es
+
+# labgaramc1, Asig, lab.it.uc3m.es
+dn: uid=labgaramc1,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labgaramc1
+cn: Arquitectura de redes de acceso y medio compartido
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+loginShell: /bin/bash
+uidNumber: 1043
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labgaramc1
+gecos: Arquitectura de redes de acceso y medio compartido,xxxx,xxxx,+34 91 624
+  xxxx,,jgr@inv.it.uc3m.es
+mailLocalAddress: labgaramc1@lab.it.uc3m.es
+mailRoutingAddress: jgr@inv.it.uc3m.es
+
+# labgaramc2, Asig, lab.it.uc3m.es
+dn: uid=labgaramc2,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labgaramc2
+cn: Arquitectura de redes de acceso y medio compartido
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+loginShell: /bin/bash
+uidNumber: 1044
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labgaramc2
+gecos: Arquitectura de redes de acceso y medio compartido,xxxx,xxxx,+34 91 624
+  xxxx,,paranda@inv.it.uc3m.es
+mailLocalAddress: labgaramc2@lab.it.uc3m.es
+mailRoutingAddress: paranda@inv.it.uc3m.es
+
+# labmm2m, Asig, lab.it.uc3m.es
+dn: uid=labmm2m,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labmm2m
+cn:: Q29tdW5pY2FjaW9uZXMgbcODwqFxdWluYS1tw4PCoXF1aW5h
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+loginShell: /bin/bash
+uidNumber: 1045
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labmm2m
+gecos: Comunicaciones maquina-maquina,xxxx,xxxx,+34 91 624 xxxx,,cgr@inv.it.uc
+ 3m.es
+mailLocalAddress: labmm2m@lab.it.uc3m.es
+mailRoutingAddress: cgr@inv.it.uc3m.es
+
+# labgaptel, Asig, lab.it.uc3m.es
+dn: uid=labgaptel,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labgaptel
+cn:: QXBsaWNhY2lvbmVzIFRlbGVtw4PCoXRpY2Fz
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+loginShell: /bin/bash
+uidNumber: 1046
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labgaptel
+gecos: Aplicaciones Telematicas,xxxx,xxxx,+34 91 624 xxxx,,celeste@inv.it.uc3m
+ .es
+mailLocalAddress: labgaptel@lab.it.uc3m.es
+mailRoutingAddress: celeste@inv.it.uc3m.es
+
+# labmri5g1, Asig, lab.it.uc3m.es
+dn: uid=labmri5g1,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labmri5g1
+cn: Redes Inalambricas y 5G del Master Universitario en Industria Conectada 4.
+ 0
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+loginShell: /bin/bash
+uidNumber: 1047
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labmri5g1
+gecos: Redes Inalambricas y 5G del Master Universitario en Industria Conectada
+  4.0,xxxx,xxxx,+34 91 624 xxxx,,pablo@inv.it.uc3m.es
+mailLocalAddress: labmri5g1@lab.it.uc3m.es
+mailRoutingAddress: pablo@inv.it.uc3m.es
+
+# labmri5g2, Asig, lab.it.uc3m.es
+dn: uid=labmri5g2,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labmri5g2
+cn: Redes Inalambricas y 5G del Master Universitario en Industria Conectada 4.
+ 0
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+loginShell: /bin/bash
+uidNumber: 1048
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labmri5g2
+gecos: Redes Inalambricas y 5G del Master Universitario en Industria Conectada
+  4.0,xxxx,xxxx,+34 91 624 xxxx,,pablo@inv.it.uc3m.es
+mailLocalAddress: labmri5g2@lab.it.uc3m.es
+mailRoutingAddress: pablo@inv.it.uc3m.es
+
+# labgrsc1, Asig, lab.it.uc3m.es
+dn: uid=labgrsc1,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labgrsc1
+cn: Redes y Servicios de Comunicaciones del Grado Tecnologias de Telecomunicac
+ ion
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+loginShell: /bin/bash
+uidNumber: 1049
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labgrsc1
+gecos: Redes y Servicios de Comunicaciones del Grado Tecnologias de Telecomuni
+ cacion,xxxx,xxxx,+34 91 624 xxxx,,aoliva@inv.it.uc3m.es
+mailLocalAddress: labgrsc1@lab.it.uc3m.es
+mailRoutingAddress: aoliva@inv.it.uc3m.es
+
+# labgrsc2, Asig, lab.it.uc3m.es
+dn: uid=labgrsc2,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labgrsc2
+cn: Redes y Servicios de Comunicaciones del Grado Tecnologias de Telecomunicac
+ ion
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+loginShell: /bin/bash
+uidNumber: 1050
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labgrsc2
+gecos: Redes y Servicios de Comunicaciones del Grado Tecnologias de Telecomuni
+ cacion,xxxx,xxxx,+34 91 624 xxxx,,aoliva@inv.it.uc3m.es
+mailLocalAddress: labgrsc2@lab.it.uc3m.es
+mailRoutingAddress: aoliva@inv.it.uc3m.es
+
+# labgrsc3, Asig, lab.it.uc3m.es
+dn: uid=labgrsc3,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labgrsc3
+cn: Redes y Servicios de Comunicaciones del Grado Tecnologias de Telecomunicac
+ ion
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+loginShell: /bin/bash
+uidNumber: 1051
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labgrsc3
+gecos: Redes y Servicios de Comunicaciones del Grado Tecnologias de Telecomuni
+ cacion,xxxx,xxxx,+34 91 624 xxxx,,aoliva@inv.it.uc3m.es
+mailLocalAddress: labgrsc3@lab.it.uc3m.es
+mailRoutingAddress: aoliva@inv.it.uc3m.es
+
+# labgrsc4, Asig, lab.it.uc3m.es
+dn: uid=labgrsc4,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labgrsc4
+cn: Redes y Servicios de Comunicaciones del Grado Tecnologias de Telecomunicac
+ ion
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+loginShell: /bin/bash
+uidNumber: 1052
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labgrsc4
+gecos: Redes y Servicios de Comunicaciones del Grado Tecnologias de Telecomuni
+ cacion,xxxx,xxxx,+34 91 624 xxxx,,aoliva@inv.it.uc3m.es
+mailLocalAddress: labgrsc4@lab.it.uc3m.es
+mailRoutingAddress: aoliva@inv.it.uc3m.es
+
+# labgarl, Asig, lab.it.uc3m.es
+dn: uid=labgarl,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labgarl
+cn:: QWRtaW5pc3RyYWNpw4PCs24gZGUgUmVkZXMgTGludXg=
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+loginShell: /bin/bash
+uidNumber: 1053
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labgarl
+gecos: Administracion de Redes Linux,xxxx,xxxx,+34 91 624 xxxx,,ayres@it.uc3m.
+ es
+mailLocalAddress: labgarl@lab.it.uc3m.es
+mailRoutingAddress: ayres@it.uc3m.es
+
+# labgap, Asig, lab.it.uc3m.es
+dn: uid=labgap,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labgap
+cn:: QXBsaWNhY2lvbmVzIE3Dg8KzdmlsZXM=
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+loginShell: /bin/bash
+uidNumber: 1054
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labgap
+gecos: Aplicaciones Moviles,xxxx,xxxx,+34 91 624 xxxx,,celeste@it.uc3m.es
+mailLocalAddress: labgap@lab.it.uc3m.es
+mailRoutingAddress: celeste@it.uc3m.es
+
+# labgasii2, Asig, lab.it.uc3m.es
+dn: uid=labgasii2,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labgasii2
+cn: Arquitectura de Sistemas II de Grado en Ingenieria Telematica
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+loginShell: /bin/bash
+uidNumber: 1056
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labgasii2
+gecos: Arquitectura de Sistemas II de Grado en Ingenieria Telematica,xxxx,xxxx
+ ,+34 91 624 xxxx,,ayres@it.uc3m.es
+mailLocalAddress: labgasii2@lab.it.uc3m.es
+mailRoutingAddress: ayres@it.uc3m.es
+
+# labgap1, Asig, lab.it.uc3m.es
+dn: uid=labgap1,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labgap1
+cn:: QXBsaWNhY2lvbmVzIE3Dg8KzdmlsZXM=
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+loginShell: /bin/bash
+uidNumber: 1057
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labgap1
+gecos: Aplicaciones Moviles,xxxx,xxxx,+34 91 624 xxxx,,celeste@it.uc3m.es
+mailLocalAddress: labgap1@lab.it.uc3m.es
+mailRoutingAddress: celeste@it.uc3m.es
+
+# labgiot, Asig, lab.it.uc3m.es
+dn: uid=labgiot,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labgiot
+cn: Internet de las cosas
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+loginShell: /bin/bash
+uidNumber: 1059
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labgiot
+mailLocalAddress: labgiot@lab.it.uc3m.es
+gecos: Internet de las cosas,xxxx,xxxx,+34 91 624 xxxx,,gbarnola@it.uc3m.es
+mailRoutingAddress: gbarnola@it.uc3m.es
+
+# labmdgri, Asig, lab.it.uc3m.es
+dn: uid=labmdgri,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labmdgri
+cn:: RGlzZcODwrFvIHkgR2VzdGnDg8KzbiBkZSBSZWRlcyBJbmZvcm3Dg8KhdGljYXM=
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+loginShell: /bin/bash
+uidNumber: 1060
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labmdgri
+gecos: Diseno y Gestion de Redes Informaticas,xxxx,xxxx,+34 91 624 xxxx,,cgr@i
+ nv.it.uc3m.es
+mailLocalAddress: labmdgri@lab.it.uc3m.es
+mailRoutingAddress: cgr@inv.it.uc3m.es
+
+# labgidap, Asig, lab.it.uc3m.es
+dn: uid=labgidap,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labgidap
+cn: Aplicaciones Moviles
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+loginShell: /bin/bash
+uidNumber: 1063
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labgidap
+gecos: Aplicaciones Moviles,xxxx,xxxx,+34 91 624 xxxx,,bogarcia@inv.it.uc3m.es
+mailLocalAddress: labgidap@lab.it.uc3m.es
+mailRoutingAddress: bogarcia@inv.it.uc3m.es
+
+# labgrsc-si, Asig, lab.it.uc3m.es
+dn: uid=labgrsc-si,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labgrsc-si
+cn: Redes y Servicios de Comunicacion del grado de Imagen y Sonido
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+loginShell: /bin/bash
+uidNumber: 1062
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labgrsc-si
+gecos: Redes y Servicios de Comunicacion del grado de Imagen y Sonido,xxxx,xxx
+ x,+34 91 624 xxxx,,rcuevas@inv.it.uc3m.es
+mailLocalAddress: labgrsc-si@lab.it.uc3m.es
+mailRoutingAddress: rcuevas@inv.it.uc3m.es
+
+# labgdst, Asig, lab.it.uc3m.es
+dn: uid=labgdst,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labgdst
+cn:: RGlzZcODwrFvIGRlIHNpc3RlbWFzIHRlbGVtw4PCoXRpY29z
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+loginShell: /bin/bash
+uidNumber: 1064
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labgdst
+gecos: Diseno de sistemas telematicos,xxxx,xxxx,+34 91 624 xxxx,,iria@inv.it.u
+ c3m.es
+mailLocalAddress: labgdst@lab.it.uc3m.es
+mailRoutingAddress: iria@inv.it.uc3m.es
+
+# labgrs, Asig, lab.it.uc3m.es
+dn: uid=labgrs,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labgrs
+cn:: UmVkZXMgU29mdHdhcmUgR3JhZG8gZW4gSW5nZW5pZXLDg8KtYSBkZSBTb25pZG8gZSBJbWFnZ
+ W4=
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+loginShell: /bin/bash
+uidNumber: 1065
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labgrs
+gecos: Redes Software Grado en Ingenieria de Sonido e Imagen,xxxx,xxxx,+34 91 
+ 624 xxxx,,aoliva@it.uc3m.es
+mailLocalAddress: labgrs@lab.it.uc3m.es
+mailRoutingAddress: aoliva@it.uc3m.es
+
+# labgtcom, Asig, lab.it.uc3m.es
+dn: uid=labgtcom,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labgtcom
+cn:: Q29ubXV0YWNpw4PCs24gR0lUIEdJVFQgR0lDTUU=
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+loginShell: /bin/bash
+uidNumber: 1066
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labgtcom
+gecos: Conmutacion GIT GITT GICME,xxxx,xxxx,+34 91 624 xxxx,,dlarra@it.uc3m.es
+mailLocalAddress: labgtcom@lab.it.uc3m.es
+mailRoutingAddress: dlarra@it.uc3m.es
+
+# labmcmm, Asig, lab.it.uc3m.es
+dn: uid=labmcmm,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labmcmm
+cn:: Q29tdW5pY2FjaW9uZXMgTcODwqFxdWluYS1Nw4PCoXF1aW5hIEluZHVzdHJpYSBDb25lY3RhZ
+ GEgNC4w
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+loginShell: /bin/bash
+uidNumber: 1067
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labmcmm
+gecos: Comunicaciones Maquina-Maquina Industria Conectada 4.0,xxxx,xxxx,+34 91
+  624 xxxx,,pcallejo@it.uc3m.es
+mailLocalAddress: labmcmm@lab.it.uc3m.es
+mailRoutingAddress: pcallejo@it.uc3m.es
+
+# labgsa, Asig, lab.it.uc3m.es
+dn: uid=labgsa,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+uid: labgsa
+cn:: U2VydmljaW9zIEF1ZGlvdmlzdWFsZXMgR3JhZG8gZW4gSW5nZW5pZXLDg8KtYSBkZSBTb25pZ
+ G8gZSBJbWFnZW4=
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: inetLocalMailRecipient
+loginShell: /bin/bash
+uidNumber: 1068
+gidNumber: 1009
+homeDirectory: /usr/lab/asig/labgsa
+gecos: Servicios Audiovisuales Grado en Ingenieria de Sonido e Imagen,xxxx,xxx
+ x,+34 91 624 xxxx,,ividal@it.uc3m.es
+mailLocalAddress: labgsa@lab.it.uc3m.es
+mailRoutingAddress: ividal@it.uc3m.es
+
+# search result
+search: 2
+result: 0 Success
+
+# numResponses: 80
+# numEntries: 79

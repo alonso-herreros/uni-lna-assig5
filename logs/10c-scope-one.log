@@ -1,0 +1,135 @@
+[2025-03-20, 11:57:08] ldapsearch -x -H ldaps://ldap.lab.it.uc3m.es -b "dc=lab,dc=it,dc=uc3m,dc=es" -s one "(objectClass=*)"
+# extended LDIF
+#
+# LDAPv3
+# base <dc=lab,dc=it,dc=uc3m,dc=es> with scope oneLevel
+# filter: (objectClass=*)
+# requesting: ALL
+#
+
+# admin, lab.it.uc3m.es
+dn: cn=admin,dc=lab,dc=it,dc=uc3m,dc=es
+objectClass: simpleSecurityObject
+objectClass: organizationalRole
+cn: admin
+description: LDAP administrator
+
+# Roaming, lab.it.uc3m.es
+dn: ou=Roaming,dc=lab,dc=it,dc=uc3m,dc=es
+objectClass: organizationalUnit
+ou: Roaming
+
+# Group, lab.it.uc3m.es
+dn: ou=Group,dc=lab,dc=it,dc=uc3m,dc=es
+objectClass: organizationalUnit
+ou: Group
+
+# Alum, lab.it.uc3m.es
+dn: ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+objectClass: organizationalUnit
+ou: Alum
+
+# Asig, lab.it.uc3m.es
+dn: ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+objectClass: organizationalUnit
+ou: Asig
+
+# Proy, lab.it.uc3m.es
+dn: ou=Proy,dc=lab,dc=it,dc=uc3m,dc=es
+objectClass: organizationalUnit
+ou: Proy
+
+# Moni, lab.it.uc3m.es
+dn: ou=Moni,dc=lab,dc=it,dc=uc3m,dc=es
+objectClass: organizationalUnit
+ou: Moni
+
+# Cursos, lab.it.uc3m.es
+dn: ou=Cursos,dc=lab,dc=it,dc=uc3m,dc=es
+objectClass: organizationalUnit
+ou: Cursos
+
+# Misc, lab.it.uc3m.es
+dn: ou=Misc,dc=lab,dc=it,dc=uc3m,dc=es
+objectClass: organizationalUnit
+ou: Misc
+
+# Adm, lab.it.uc3m.es
+dn: ou=Adm,dc=lab,dc=it,dc=uc3m,dc=es
+objectClass: organizationalUnit
+ou: Adm
+
+# proxyuser, lab.it.uc3m.es
+dn: cn=proxyuser,dc=lab,dc=it,dc=uc3m,dc=es
+objectClass: top
+objectClass: person
+cn: proxyuser
+sn: proxyuser
+
+# Master, lab.it.uc3m.es
+dn: ou=Master,dc=lab,dc=it,dc=uc3m,dc=es
+objectClass: organizationalUnit
+ou: Master
+
+# mirrormode, lab.it.uc3m.es
+dn: cn=mirrormode,dc=lab,dc=it,dc=uc3m,dc=es
+objectClass: simpleSecurityObject
+objectClass: organizationalRole
+cn: mirrormode
+description: Syncrepl user for mirrormode operation
+
+# Users, lab.it.uc3m.es
+dn: ou=Users,dc=lab,dc=it,dc=uc3m,dc=es
+objectClass: organizationalUnit
+ou: Users
+
+# fusiondirectory, lab.it.uc3m.es
+dn: ou=fusiondirectory,dc=lab,dc=it,dc=uc3m,dc=es
+objectClass: organizationalUnit
+ou: fusiondirectory
+
+# aclroles, lab.it.uc3m.es
+dn: ou=aclroles,dc=lab,dc=it,dc=uc3m,dc=es
+objectClass: organizationalUnit
+ou: aclroles
+
+# snapshots, lab.it.uc3m.es
+dn: ou=snapshots,dc=lab,dc=it,dc=uc3m,dc=es
+objectClass: organizationalUnit
+ou: snapshots
+
+# Groups, lab.it.uc3m.es
+dn: ou=Groups,dc=lab,dc=it,dc=uc3m,dc=es
+objectClass: organizationalUnit
+ou: Groups
+
+# Computers, lab.it.uc3m.es
+dn: ou=Computers,dc=lab,dc=it,dc=uc3m,dc=es
+objectClass: organizationalUnit
+ou: Computers
+
+# Idmap, lab.it.uc3m.es
+dn: ou=Idmap,dc=lab,dc=it,dc=uc3m,dc=es
+objectClass: organizationalUnit
+ou: Idmap
+
+# LABDIT, lab.it.uc3m.es
+dn: sambaDomainName=LABDIT,dc=lab,dc=it,dc=uc3m,dc=es
+objectClass: sambaDomain
+objectClass: sambaUnixIdPool
+sambaDomainName: LABDIT
+sambaSID: S-1-5-21-3640221766-2347511451-2932192384
+uidNumber: 1000
+gidNumber: 1000
+sambaNextRid: 1037
+sambaPwdHistoryLength: 0
+sambaLockoutThreshold: 0
+sambaMaxPwdAge: -1
+sambaMinPwdAge: 0
+
+# search result
+search: 2
+result: 0 Success
+
+# numResponses: 22
+# numEntries: 21

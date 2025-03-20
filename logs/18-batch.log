@@ -1,0 +1,47 @@
+[2025-03-20, 12:44:59] ldapsearch -x -H ldaps://ldap.lab.it.uc3m.es -b "dc=lab,dc=it,dc=uc3m,dc=es" "(uid=%s)" dn -f batches/18-batch-uids.txt
+# extended LDIF
+#
+# LDAPv3
+# base <dc=lab,dc=it,dc=uc3m,dc=es> with scope subtree
+# filter pattern: (uid=%s)
+# requesting: dn 
+#
+
+#
+# filter: (uid=0493990)
+#
+# 0493990, Alum, lab.it.uc3m.es
+dn: uid=0493990,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# search result
+search: 2
+result: 0 Success
+
+# numResponses: 2
+# numEntries: 1
+
+#
+# filter: (uid=0496080)
+#
+# 0496080, Alum, lab.it.uc3m.es
+dn: uid=0496080,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# search result
+search: 3
+result: 0 Success
+
+# numResponses: 2
+# numEntries: 1
+
+#
+# filter: (uid=labgdst)
+#
+# labgdst, Asig, lab.it.uc3m.es
+dn: uid=labgdst,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# search result
+search: 4
+result: 0 Success
+
+# numResponses: 2
+# numEntries: 1

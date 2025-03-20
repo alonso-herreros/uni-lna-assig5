@@ -1,0 +1,36 @@
+[2025-03-20, 12:29:33] ldapsearch -x -H ldaps://ldap.lab.it.uc3m.es -b "ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es" -z 7 "(&(cn=*JU*)(!(cn=*MAR*)))" dn
+# extended LDIF
+#
+# LDAPv3
+# base <ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es> with scope subtree
+# filter: (&(cn=*JU*)(!(cn=*MAR*)))
+# requesting: dn 
+#
+
+# 0072703, Alum, lab.it.uc3m.es
+dn: uid=0072703,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0302727, Alum, lab.it.uc3m.es
+dn: uid=0302727,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0282499, Alum, lab.it.uc3m.es
+dn: uid=0282499,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0364469, Alum, lab.it.uc3m.es
+dn: uid=0364469,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0364563, Alum, lab.it.uc3m.es
+dn: uid=0364563,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0384113, Alum, lab.it.uc3m.es
+dn: uid=0384113,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0383446, Alum, lab.it.uc3m.es
+dn: uid=0383446,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# search result
+search: 2
+result: 4 Size limit exceeded
+
+# numResponses: 8
+# numEntries: 7

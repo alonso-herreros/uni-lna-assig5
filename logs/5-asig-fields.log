@@ -1,0 +1,436 @@
+[2025-03-20, 11:26:57] ldapsearch -x -H ldaps://ldap.lab.it.uc3m.es -b "ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es" "(objectClass=*)" cn homeDirectory
+# extended LDIF
+#
+# LDAPv3
+# base <ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es> with scope subtree
+# filter: (objectClass=*)
+# requesting: cn homeDirectory 
+#
+
+# Asig, lab.it.uc3m.es
+dn: ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+
+# ircit, Asig, lab.it.uc3m.es
+dn: uid=ircit,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+homeDirectory: /usr/lab/asig/ircit
+cn: Inteligencia en Redes de Comunicaciones (jvillena@it.uc3m.es)
+
+# lablarc, Asig, lab.it.uc3m.es
+dn: uid=lablarc,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+homeDirectory: /usr/lab/asig/lablarc
+cn: Laboratorio de Arquitectura de Redes de Comunicaciones
+
+# labscd, Asig, lab.it.uc3m.es
+dn: uid=labscd,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+homeDirectory: /usr/lab/asig/labscd
+cn: Sistemas de Comunicacion de Datos
+
+# labrsci, Asig, lab.it.uc3m.es
+dn: uid=labrsci,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+homeDirectory: /usr/lab/asig/labrsci
+cn: Redes y Servicios de Comunicaciones I
+
+# lablis, Asig, lab.it.uc3m.es
+dn: uid=lablis,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn: Laboratorio de Ingenieria de Servicios
+homeDirectory: /usr/lab/asig/lablis
+
+# labro, Asig, lab.it.uc3m.es
+dn: uid=labro,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+homeDirectory: /usr/lab/asig/labro
+cn: Redes de Ordenadores
+
+# labro2, Asig, lab.it.uc3m.es
+dn: uid=labro2,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+homeDirectory: /usr/lab/asig/labro2
+cn:: UmVkZXMgZGUgT3JkZW5hZG9yZXMgSUkgNcK6IEkuSW5mb3Jtw6F0aWNhIChyZXNwb25zYWJsZ
+ SBDZWxlc3RlIENhbXBvIC0gY2VsZXN0ZUBpdC51YzNtLmVzKQ==
+
+# labsi, Asig, lab.it.uc3m.es
+dn: uid=labsi,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+homeDirectory: /usr/lab/asig/labsi
+cn:: U2Vydmlkb3JlcyBkZSBJbmZvcm1hY2nDs24gKHJlc3BvbnNhYmxlIFBlZHJvIEouIE11w7Fve
+ iAtIHBlZG11bWVAaXQudWMzbS5lcyk=
+
+# labarc, Asig, lab.it.uc3m.es
+dn: uid=labarc,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn: Arquitectura de Redes de Comunicaciones (responsables - alberto@it.uc3m.es
+  dlarra@it.uc3m.es)
+homeDirectory: /usr/lab/asig/labarc
+
+# labrm, Asig, lab.it.uc3m.es
+dn: uid=labrm,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+homeDirectory: /usr/lab/asig/labrm
+cn: Redes Multimedia del Grado en Ing. de Sonido e Imagen (responsable - banch
+ s@inv.it.uc3m.es)
+
+# labttlat, Asig, lab.it.uc3m.es
+dn: uid=labttlat,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn:: TGFib3JhdG9yaW8gZGUgQXBsaWNhY2lvbmVzIFRlbGVtw6F0aWNhcyAoMyBJVFQtVGVsZW3Do
+ XRpY2Ep
+homeDirectory: /usr/lab/asig/labttlat
+
+# labswc, Asig, lab.it.uc3m.es
+dn: uid=labswc,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn: Software de comunicaciones
+homeDirectory: /usr/lab/asig/labswc
+
+# labfimitt, Asig, lab.it.uc3m.es
+dn: uid=labfimitt,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn:: Rmx1am9zIGRlIEluZm9ybWFjacOzbiBNdWx0aW1lZGlhIChJVFQgSW1hZ2VuIHkgU29uaWRvK
+ Q==
+homeDirectory: /usr/lab/asig/labfimitt
+
+# labsi2, Asig, lab.it.uc3m.es
+dn: uid=labsi2,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn: Servidores de Informacion (jfernandezgalvan@cyii.es)
+homeDirectory: /usr/lab/asig/labsi2
+
+# labsimitis, Asig, lab.it.uc3m.es
+dn: uid=labsimitis,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn: Servidores de Informacion Multimedia(pbasanta@it.uc3m.es)
+homeDirectory: /usr/lab/asig/labsimitis
+
+# labrsc-sa, Asig, lab.it.uc3m.es
+dn: uid=labrsc-sa,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn:: UmVkZXMgeSBTZXJ2aWNpb3MgZGUgQ29tdW5pY2FjaW9uZXMgZGVsIEdyYWRvIGVuIEluZ2Vua
+ WVyw61hIGRlIFNpc3RlbWFzIEF1ZGlvdmlzdWFsZXM=
+homeDirectory: /usr/lab/asig/labrsc-sa
+
+# labrsc-tel, Asig, lab.it.uc3m.es
+dn: uid=labrsc-tel,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn:: UmVkZXMgeSBTZXJ2aWNpb3MgZGUgQ29tdW5pY2FjaW9uZXMgZGVsIEdyYWRvIGVuIEluZ2Vua
+ WVyw61hIFRlbGVtYXRpY2E=
+homeDirectory: /usr/lab/asig/labrsc-tel
+
+# labrsc-sc, Asig, lab.it.uc3m.es
+dn: uid=labrsc-sc,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn:: UmVkZXMgeSBTZXJ2aWNpb3MgZGUgQ29tdW5pY2FjaW9uZXMgZGVsIEdyYWRvIGVuIEluZ2Vua
+ WVyw61hIGRlIFNpc3RlbWFzIGRlIENvbXVuaWNhY2lvbmVz
+homeDirectory: /usr/lab/asig/labrsc-sc
+
+# labtr, Asig, lab.it.uc3m.es
+dn: uid=labtr,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn: Teoria de Redes
+homeDirectory: /usr/lab/asig/labtr
+
+# labgasii, Asig, lab.it.uc3m.es
+dn: uid=labgasii,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+homeDirectory: /usr/lab/asig/labgasii
+cn:: QXJxdWl0ZWN0dXJhIGRlIFNpc3RlbWFzIElJIGRlIEdyYWRvIGVuIEluZ2VuaWVyw61hIFRlb
+ GVtw6F0aWNh
+
+# labswc-it, Asig, lab.it.uc3m.es
+dn: uid=labswc-it,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn:: U29mdHdhcmUgZGUgY29tdW5pY2FjaW9uZXMoSW5nZW5pZXLDrWEgVGVsZW3DoXRpY2Ep
+homeDirectory: /usr/lab/asig/labswc-it
+
+# labgrysca, Asig, lab.it.uc3m.es
+dn: uid=labgrysca,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn:: UmVkZXMgeSBTZXJ2aWNpb3MgZGUgQ29tdW5pY2FjaW9uZXMgQXZhbnphZGFzIDMgR3JhZG8gV
+ GVsZW3DoXRpY2E=
+homeDirectory: /usr/lab/asig/labgrysca
+
+# labgtcon, Asig, lab.it.uc3m.es
+dn: uid=labgtcon,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+homeDirectory: /usr/lab/asig/labgtcon
+cn:: Q29ubXV0YWNpw7Nu
+
+# labgaam, Asig, lab.it.uc3m.es
+dn: uid=labgaam,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn:: QXBsaWNhY2lvbmVzIE11bHRpbWVkaWEgM2VyIEN1cnNvIEdyYWRvIEluZ2VuaWVyw61hIGRlI
+ FNpc3RlbWFzIEF1ZGlvdmlzdWFsZXM=
+homeDirectory: /usr/lab/asig/labgaam
+
+# labgriym, Asig, lab.it.uc3m.es
+dn: uid=labgriym,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn: Redes Inalambricas y moviles
+homeDirectory: /usr/lab/asig/labgriym
+
+# labgaw, Asig, lab.it.uc3m.es
+dn: uid=labgaw,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn: Aplicaciones Web Grados Sistema de Comunicaciones y Audiovisuales
+homeDirectory: /usr/lab/asig/labgaw
+
+# labgrsc, Asig, lab.it.uc3m.es
+dn: uid=labgrsc,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn:: UmVkZXMgeSBTZXJ2aWNpb3MgZGUgQ29tdW5pY2FjaW9uZXMgZGVsIEdyYWRvIFRlY25vbG9nw
+ 61hcyBkZSBUZWxlY29tdW5pY2FjacOzbg==
+homeDirectory: /usr/lab/asig/labgrsc
+
+# labgro, Asig, lab.it.uc3m.es
+dn: uid=labgro,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn:: UmVkZXMgZGUgT3JkZW5hZG9yZXMgR3JhZG8gZGUgSW5nZW5pZXLDrWEgSW5mb3Jtw6F0aWNh
+homeDirectory: /usr/lab/asig/labgro
+
+# labgamm, Asig, lab.it.uc3m.es
+dn: uid=labgamm,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn: asignatura aplicaciones multimedia (del Grado en Ing. de Sistemas Audiovis
+ uales)
+homeDirectory: /usr/lab/asig/labgamm
+
+# labgcd, Asig, lab.it.uc3m.es
+dn: uid=labgcd,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+homeDirectory: /usr/lab/asig/labgcd
+cn:: Q29tcHV0YWNpw7NuIERpc3RyaWJ1aWRhIEcuSS5UZWNub2xvZ8OtYXMgVGVsZWNvbXVuaWNhY
+ 2lvbmVz
+
+# wlit, Asig, lab.it.uc3m.es
+dn: uid=wlit,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn: Cuenta de acceso wireless
+homeDirectory: /usr/lab/asig/wlit
+
+# labgastt, Asig, lab.it.uc3m.es
+dn: uid=labgastt,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn:: QXJxdWl0ZWN0dXJhIGRlIFNpc3RlbWFzIGRlIEdyYWRvIGVuIFRlY25vbG9nw61hcyBkZSBsY
+ XMgVGVsZWNvbXVuaWNhY2lvbmVz
+homeDirectory: /usr/lab/asig/labgastt
+
+# labgcro, Asig, lab.it.uc3m.es
+dn: uid=labgcro,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn: Redes de Ordenadores Grado de Ingenieria Informatica Colmenarejo
+homeDirectory: /usr/lab/asig/labgcro
+
+# labgimi, Asig, lab.it.uc3m.es
+dn: uid=labgimi,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn: Gestion de la informacion multimedia en internet
+homeDirectory: /usr/lab/asig/labgimi
+
+# labgps, Asig, lab.it.uc3m.es
+dn: uid=labgps,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn: Programacion de sistemas
+homeDirectory: /usr/lab/asig/labgps
+
+# labaptel, Asig, lab.it.uc3m.es
+dn: uid=labaptel,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn: Aplicaciones Telematicas
+homeDirectory: /usr/lab/asig/labaptel
+
+# labgcd1, Asig, lab.it.uc3m.es
+dn: uid=labgcd1,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn:: Q29tcHV0YWNpw7NuIERpc3RyaWJ1aWRh
+homeDirectory: /usr/lab/asig/labgcd1
+
+# labgcd2, Asig, lab.it.uc3m.es
+dn: uid=labgcd2,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn:: Q29tcHV0YWNpw7NuIERpc3RyaWJ1aWRh
+homeDirectory: /usr/lab/asig/labgcd2
+
+# labgaramc, Asig, lab.it.uc3m.es
+dn: uid=labgaramc,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn: Arquitectura de redes de acceso y medio compartido
+homeDirectory: /usr/lab/asig/labgaramc
+
+# labgpfat, Asig, lab.it.uc3m.es
+dn: uid=labgpfat,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn:: UHJvY2VzYW1pZW50byBkZSBGb3JtYXRvcyBlbiBBcGxpY2FjaW9uZXMgVGVsZW3Dg8KhdGljY
+ XM=
+homeDirectory: /usr/lab/asig/labgpfat
+
+# labgfsc, Asig, lab.it.uc3m.es
+dn: uid=labgfsc,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn: Fundamentos Seguridad en Comunicaciones
+homeDirectory: /usr/lab/asig/labgfsc
+
+# labgas, Asig, lab.it.uc3m.es
+dn: uid=labgas,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn: Arquitectura de Sistemas
+homeDirectory: /usr/lab/asig/labgas
+
+# labgars, Asig, lab.it.uc3m.es
+dn: uid=labgars,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn: Arquitectura de Sistemas
+homeDirectory: /usr/lab/asig/labgars
+
+# labgaramcgtt, Asig, lab.it.uc3m.es
+dn: uid=labgaramcgtt,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn: Arquitectura de Redes de Acceso y Medio Compartido
+homeDirectory: /usr/lab/asig/labgaramcgtt
+
+# labgdat, Asig, lab.it.uc3m.es
+dn: uid=labgdat,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn:: RGlzZcODwrFvIGRlIGFwbGljYWNpb25lcyB0ZWxlbcODwqF0aWNhcw==
+homeDirectory: /usr/lab/asig/labgdat
+
+# labarciot, Asig, lab.it.uc3m.es
+dn: uid=labarciot,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn: Lab. Arquitectura de redes IoT
+homeDirectory: /usr/lab/asig/labarciot
+
+# labgcd3, Asig, lab.it.uc3m.es
+dn: uid=labgcd3,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn: Computacion Distribuida
+homeDirectory: /usr/lab/asig/labgcd3
+
+# labmri5g, Asig, lab.it.uc3m.es
+dn: uid=labmri5g,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn:: UmVkZXMgSW5hbMODwqFtYnJpY2FzIHkgNUcgZGVsIE3Dg8Khc3RlciBVbml2ZXJzaXRhcmlvI
+ GVuIEluZHVzdHJpYSBDb25lY3RhZGEgNC4w
+homeDirectory: /usr/lab/asig/labmri5g
+
+# labgriym2, Asig, lab.it.uc3m.es
+dn: uid=labgriym2,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn: Redes Inalambricas y moviles
+homeDirectory: /usr/lab/asig/labgriym2
+
+# labgred, Asig, lab.it.uc3m.es
+dn: uid=labgred,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn: Redes de Ordenadores en Ing. Informatica
+homeDirectory: /usr/lab/asig/labgred
+
+# labgaramce, Asig, lab.it.uc3m.es
+dn: uid=labgaramce,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn: Arquitectura de redes de acceso y medio compartido
+homeDirectory: /usr/lab/asig/labgaramce
+
+# labaptel1, Asig, lab.it.uc3m.es
+dn: uid=labaptel1,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn:: QXBsaWNhY2lvbmVzIFRlbGVtw6F0aWNhcw==
+homeDirectory: /usr/lab/asig/labaptel1
+
+# labaptel2, Asig, lab.it.uc3m.es
+dn: uid=labaptel2,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn:: QXBsaWNhY2lvbmVzIFRlbGVtw6F0aWNhcw==
+homeDirectory: /usr/lab/asig/labaptel2
+
+# labaptel3, Asig, lab.it.uc3m.es
+dn: uid=labaptel3,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn:: QXBsaWNhY2lvbmVzIFRlbGVtw6F0aWNhcw==
+homeDirectory: /usr/lab/asig/labaptel3
+
+# labmsma, Asig, lab.it.uc3m.es
+dn: uid=labmsma,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn:: U2VydmljaW9zIE11bHRpbWVkaWEgQXZhbnphZG9zIGRlbCBNw6FzdGVyIGRlIEluZ2VuaWVyw
+ 61hIGRlIFRlbGVjb211bmljYWNpb24=
+homeDirectory: /usr/lab/asig/labmsma
+
+# labgaramc1, Asig, lab.it.uc3m.es
+dn: uid=labgaramc1,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn: Arquitectura de redes de acceso y medio compartido
+homeDirectory: /usr/lab/asig/labgaramc1
+
+# labgaramc2, Asig, lab.it.uc3m.es
+dn: uid=labgaramc2,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn: Arquitectura de redes de acceso y medio compartido
+homeDirectory: /usr/lab/asig/labgaramc2
+
+# labmm2m, Asig, lab.it.uc3m.es
+dn: uid=labmm2m,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn:: Q29tdW5pY2FjaW9uZXMgbcODwqFxdWluYS1tw4PCoXF1aW5h
+homeDirectory: /usr/lab/asig/labmm2m
+
+# labgaptel, Asig, lab.it.uc3m.es
+dn: uid=labgaptel,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn:: QXBsaWNhY2lvbmVzIFRlbGVtw4PCoXRpY2Fz
+homeDirectory: /usr/lab/asig/labgaptel
+
+# labmri5g1, Asig, lab.it.uc3m.es
+dn: uid=labmri5g1,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn: Redes Inalambricas y 5G del Master Universitario en Industria Conectada 4.
+ 0
+homeDirectory: /usr/lab/asig/labmri5g1
+
+# labmri5g2, Asig, lab.it.uc3m.es
+dn: uid=labmri5g2,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn: Redes Inalambricas y 5G del Master Universitario en Industria Conectada 4.
+ 0
+homeDirectory: /usr/lab/asig/labmri5g2
+
+# labgrsc1, Asig, lab.it.uc3m.es
+dn: uid=labgrsc1,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn: Redes y Servicios de Comunicaciones del Grado Tecnologias de Telecomunicac
+ ion
+homeDirectory: /usr/lab/asig/labgrsc1
+
+# labgrsc2, Asig, lab.it.uc3m.es
+dn: uid=labgrsc2,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn: Redes y Servicios de Comunicaciones del Grado Tecnologias de Telecomunicac
+ ion
+homeDirectory: /usr/lab/asig/labgrsc2
+
+# labgrsc3, Asig, lab.it.uc3m.es
+dn: uid=labgrsc3,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn: Redes y Servicios de Comunicaciones del Grado Tecnologias de Telecomunicac
+ ion
+homeDirectory: /usr/lab/asig/labgrsc3
+
+# labgrsc4, Asig, lab.it.uc3m.es
+dn: uid=labgrsc4,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn: Redes y Servicios de Comunicaciones del Grado Tecnologias de Telecomunicac
+ ion
+homeDirectory: /usr/lab/asig/labgrsc4
+
+# labgarl, Asig, lab.it.uc3m.es
+dn: uid=labgarl,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn:: QWRtaW5pc3RyYWNpw4PCs24gZGUgUmVkZXMgTGludXg=
+homeDirectory: /usr/lab/asig/labgarl
+
+# labgap, Asig, lab.it.uc3m.es
+dn: uid=labgap,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn:: QXBsaWNhY2lvbmVzIE3Dg8KzdmlsZXM=
+homeDirectory: /usr/lab/asig/labgap
+
+# labgasii2, Asig, lab.it.uc3m.es
+dn: uid=labgasii2,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn: Arquitectura de Sistemas II de Grado en Ingenieria Telematica
+homeDirectory: /usr/lab/asig/labgasii2
+
+# labgap1, Asig, lab.it.uc3m.es
+dn: uid=labgap1,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn:: QXBsaWNhY2lvbmVzIE3Dg8KzdmlsZXM=
+homeDirectory: /usr/lab/asig/labgap1
+
+# labgiot, Asig, lab.it.uc3m.es
+dn: uid=labgiot,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn: Internet de las cosas
+homeDirectory: /usr/lab/asig/labgiot
+
+# labmdgri, Asig, lab.it.uc3m.es
+dn: uid=labmdgri,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn:: RGlzZcODwrFvIHkgR2VzdGnDg8KzbiBkZSBSZWRlcyBJbmZvcm3Dg8KhdGljYXM=
+homeDirectory: /usr/lab/asig/labmdgri
+
+# labgidap, Asig, lab.it.uc3m.es
+dn: uid=labgidap,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn: Aplicaciones Moviles
+homeDirectory: /usr/lab/asig/labgidap
+
+# labgrsc-si, Asig, lab.it.uc3m.es
+dn: uid=labgrsc-si,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn: Redes y Servicios de Comunicacion del grado de Imagen y Sonido
+homeDirectory: /usr/lab/asig/labgrsc-si
+
+# labgdst, Asig, lab.it.uc3m.es
+dn: uid=labgdst,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn:: RGlzZcODwrFvIGRlIHNpc3RlbWFzIHRlbGVtw4PCoXRpY29z
+homeDirectory: /usr/lab/asig/labgdst
+
+# labgrs, Asig, lab.it.uc3m.es
+dn: uid=labgrs,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn:: UmVkZXMgU29mdHdhcmUgR3JhZG8gZW4gSW5nZW5pZXLDg8KtYSBkZSBTb25pZG8gZSBJbWFnZ
+ W4=
+homeDirectory: /usr/lab/asig/labgrs
+
+# labgtcom, Asig, lab.it.uc3m.es
+dn: uid=labgtcom,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn:: Q29ubXV0YWNpw4PCs24gR0lUIEdJVFQgR0lDTUU=
+homeDirectory: /usr/lab/asig/labgtcom
+
+# labmcmm, Asig, lab.it.uc3m.es
+dn: uid=labmcmm,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn:: Q29tdW5pY2FjaW9uZXMgTcODwqFxdWluYS1Nw4PCoXF1aW5hIEluZHVzdHJpYSBDb25lY3RhZ
+ GEgNC4w
+homeDirectory: /usr/lab/asig/labmcmm
+
+# labgsa, Asig, lab.it.uc3m.es
+dn: uid=labgsa,ou=Asig,dc=lab,dc=it,dc=uc3m,dc=es
+cn:: U2VydmljaW9zIEF1ZGlvdmlzdWFsZXMgR3JhZG8gZW4gSW5nZW5pZXLDg8KtYSBkZSBTb25pZ
+ G8gZSBJbWFnZW4=
+homeDirectory: /usr/lab/asig/labgsa
+
+# search result
+search: 2
+result: 0 Success
+
+# numResponses: 80
+# numEntries: 79

@@ -1,0 +1,262 @@
+[2025-03-20, 13:03:51] ldapsearch -x -H ldaps://ldap.uc3m.es -b "ou=Alumnos,ou=Gente,o=Universidad Carlos III,c=es" "(cn=ALONSO *)" dn
+# extended LDIF
+#
+# LDAPv3
+# base <ou=Alumnos,ou=Gente,o=Universidad Carlos III,c=es> with scope subtree
+# filter: (cn=ALONSO *)
+# requesting: dn 
+#
+
+# 100036232, LICENCIATURA EN ADMINISTRACION Y DIRECCION DE EMPRESAS, Alumnos, G
+ ente, Universidad Carlos III, es
+dn: uid=100036232,ou=LICENCIATURA EN ADMINISTRACION Y DIRECCION DE EMPRESAS,ou
+ =Alumnos,ou=Gente,o=Universidad Carlos III,c=es
+
+# 100036226, DOCTORADO EN DERECHO, Alumnos, Gente, Universidad Carlos III, es
+dn: uid=100036226,ou=DOCTORADO EN DERECHO,ou=Alumnos,ou=Gente,o=Universidad Ca
+ rlos III,c=es
+
+# 100036147, MASTER EN INVESTIGACION EN DOCUMENTACION, Alumnos, Gente, Universi
+ dad Carlos III, es
+dn: uid=100036147,ou=MASTER EN INVESTIGACION EN DOCUMENTACION,ou=Alumnos,ou=Ge
+ nte,o=Universidad Carlos III,c=es
+
+# 100054879, ESTUDIOS COMBINADOS EN DERECHO Y CC. POLITICAS Y DE LA ADMINISTRAC
+ ION, Alumnos, Gente, Universidad Carlos III, es
+dn: uid=100054879,ou=ESTUDIOS COMBINADOS EN DERECHO Y CC. POLITICAS Y DE LA AD
+ MINISTRACION,ou=Alumnos,ou=Gente,o=Universidad Carlos III,c=es
+
+# 100073290, GRADO EN ECONOMIA, Alumnos, Gente, Universidad Carlos III, es
+dn: uid=100073290,ou=GRADO EN ECONOMIA,ou=Alumnos,ou=Gente,o=Universidad Carlo
+ s III,c=es
+
+# 100075238, LICENCIATURA EN ADMINISTRACION Y DIRECCION DE EMPRESAS, Alumnos, G
+ ente, Universidad Carlos III, es
+dn: uid=100075238,ou=LICENCIATURA EN ADMINISTRACION Y DIRECCION DE EMPRESAS,ou
+ =Alumnos,ou=Gente,o=Universidad Carlos III,c=es
+
+# 100004916, LICENCIATURA EN ADMINISTRACION Y DIRECCION DE EMPRESAS, Alumnos, G
+ ente, Universidad Carlos III, es
+dn: uid=100004916,ou=LICENCIATURA EN ADMINISTRACION Y DIRECCION DE EMPRESAS,ou
+ =Alumnos,ou=Gente,o=Universidad Carlos III,c=es
+
+# 100002222, DIPLOMATURA EN CIENCIAS EMPRESARIALES, Alumnos, Gente, Universidad
+  Carlos III, es
+dn: uid=100002222,ou=DIPLOMATURA EN CIENCIAS EMPRESARIALES,ou=Alumnos,ou=Gente
+ ,o=Universidad Carlos III,c=es
+
+# 100083691, GRADO EN SOCIOLOGIA, Alumnos, Gente, Universidad Carlos III, es
+dn: uid=100083691,ou=GRADO EN SOCIOLOGIA,ou=Alumnos,ou=Gente,o=Universidad Car
+ los III,c=es
+
+# 100282904, GRADO EN INGENIERIA EN TECNOLOGIAS INDUSTRIALES, Alumnos, Gente, U
+ niversidad Carlos III, es
+dn: uid=100282904,ou=GRADO EN INGENIERIA EN TECNOLOGIAS INDUSTRIALES,ou=Alumno
+ s,ou=Gente,o=Universidad Carlos III,c=es
+
+# 100284468, GRADO EN INGENIERIA BIOMEDICA, Alumnos, Gente, Universidad Carlos 
+ III, es
+dn: uid=100284468,ou=GRADO EN INGENIERIA BIOMEDICA,ou=Alumnos,ou=Gente,o=Unive
+ rsidad Carlos III,c=es
+
+# 300288291, MASTER DE FORMACION PERMANENTE EN INTEGRACION DE SISTEMAS DE AERON
+ AVES, Alumnos, Gente, Universidad Carlos III, es
+dn: uid=300288291,ou=MASTER DE FORMACION PERMANENTE EN INTEGRACION DE SISTEMAS
+  DE AERONAVES,ou=Alumnos,ou=Gente,o=Universidad Carlos III,c=es
+
+# 100303541, GRADO EN INGENIERIA INFORMATICA, Alumnos, Gente, Universidad Carlo
+ s III, es
+dn: uid=100303541,ou=GRADO EN INGENIERIA INFORMATICA,ou=Alumnos,ou=Gente,o=Uni
+ versidad Carlos III,c=es
+
+# 100306640, MASTER UNIVERSITARIO EN DESARROLLO Y CRECIMIENTO ECONOMICO, Alumno
+ s, Gente, Universidad Carlos III, es
+dn: uid=100306640,ou=MASTER UNIVERSITARIO EN DESARROLLO Y CRECIMIENTO ECONOMIC
+ O,ou=Alumnos,ou=Gente,o=Universidad Carlos III,c=es
+
+# 100319405, MASTER EN DERECHO DE LAS TELECOMUNICACIONES Y LAS TECNOLOGIAS DE L
+ A INFORMACION, Alumnos, Gente, Universidad Carlos III, es
+dn: uid=100319405,ou=MASTER EN DERECHO DE LAS TELECOMUNICACIONES Y LAS TECNOLO
+ GIAS DE LA INFORMACION,ou=Alumnos,ou=Gente,o=Universidad Carlos III,c=es
+
+# 100328455, MASTER EN MEDIACION NEGOCIACION Y RESOLUCION DE CONFLICTOS, Alumno
+ s, Gente, Universidad Carlos III, es
+dn: uid=100328455,ou=MASTER EN MEDIACION NEGOCIACION Y RESOLUCION DE CONFLICTO
+ S,ou=Alumnos,ou=Gente,o=Universidad Carlos III,c=es
+
+# 100334608, MASTER DE FORMACION PERMANENTE EN ARCHIVISTICA, Alumnos, Gente, Un
+ iversidad Carlos III, es
+dn: uid=100334608,ou=MASTER DE FORMACION PERMANENTE EN ARCHIVISTICA,ou=Alumnos
+ ,ou=Gente,o=Universidad Carlos III,c=es
+
+# 100346802, GRADO EN INGENIERIA EN TECNOLOGIAS DE TELECOMUNICACION, Alumnos, G
+ ente, Universidad Carlos III, es
+dn: uid=100346802,ou=GRADO EN INGENIERIA EN TECNOLOGIAS DE TELECOMUNICACION,ou
+ =Alumnos,ou=Gente,o=Universidad Carlos III,c=es
+
+# 100353302, ALUMNOS DE PROGRAMAS DE INTERCAMBIO, Alumnos, Gente, Universidad C
+ arlos III, es
+dn: uid=100353302,ou=ALUMNOS DE PROGRAMAS DE INTERCAMBIO,ou=Alumnos,ou=Gente,o
+ =Universidad Carlos III,c=es
+
+# 100298708, MASTER ONLINE EN ADMINISTRACION DE EMPRESAS - IUP, Alumnos, Gente,
+  Universidad Carlos III, es
+dn: uid=100298708,ou=MASTER ONLINE EN ADMINISTRACION DE EMPRESAS - IUP,ou=Alum
+ nos,ou=Gente,o=Universidad Carlos III,c=es
+
+# 100364195, GRADO EN INGENIERIA EN TECNOLOGIAS INDUSTRIALES, Alumnos, Gente, U
+ niversidad Carlos III, es
+dn: uid=100364195,ou=GRADO EN INGENIERIA EN TECNOLOGIAS INDUSTRIALES,ou=Alumno
+ s,ou=Gente,o=Universidad Carlos III,c=es
+
+# 100364390, GRADO EN INGENIERIA EN TECNOLOGIAS INDUSTRIALES, Alumnos, Gente, U
+ niversidad Carlos III, es
+dn: uid=100364390,ou=GRADO EN INGENIERIA EN TECNOLOGIAS INDUSTRIALES,ou=Alumno
+ s,ou=Gente,o=Universidad Carlos III,c=es
+
+# 100377049, ESTUDIANTES VISITANTES EN LA UNIVERSIDAD CARLOS III DE MADRID, Alu
+ mnos, Gente, Universidad Carlos III, es
+dn: uid=100377049,ou=ESTUDIANTES VISITANTES EN LA UNIVERSIDAD CARLOS III DE MA
+ DRID,ou=Alumnos,ou=Gente,o=Universidad Carlos III,c=es
+
+# 100383968, GRADO EN INGENIERIA EN TECNOLOGIAS INDUSTRIALES, Alumnos, Gente, U
+ niversidad Carlos III, es
+dn: uid=100383968,ou=GRADO EN INGENIERIA EN TECNOLOGIAS INDUSTRIALES,ou=Alumno
+ s,ou=Gente,o=Universidad Carlos III,c=es
+
+# 100383652, GRADO EN INGENIERIA MECANICA, Alumnos, Gente, Universidad Carlos I
+ II, es
+dn: uid=100383652,ou=GRADO EN INGENIERIA MECANICA,ou=Alumnos,ou=Gente,o=Univer
+ sidad Carlos III,c=es
+
+# 100386279, DOBLE GRADO EN PERIODISMO Y COMUNICACION AUDIOVISUAL, Alumnos, Gen
+ te, Universidad Carlos III, es
+dn: uid=100386279,ou=DOBLE GRADO EN PERIODISMO Y COMUNICACION AUDIOVISUAL,ou=A
+ lumnos,ou=Gente,o=Universidad Carlos III,c=es
+
+# 100385849, DOBLE GRADO EN DERECHO Y ADMINISTRACION DE EMPRESAS, Alumnos, Gent
+ e, Universidad Carlos III, es
+dn: uid=100385849,ou=DOBLE GRADO EN DERECHO Y ADMINISTRACION DE EMPRESAS,ou=Al
+ umnos,ou=Gente,o=Universidad Carlos III,c=es
+
+# 100382595, GRADO EN INGENIERIA EN TECNOLOGIAS INDUSTRIALES, Alumnos, Gente, U
+ niversidad Carlos III, es
+dn: uid=100382595,ou=GRADO EN INGENIERIA EN TECNOLOGIAS INDUSTRIALES,ou=Alumno
+ s,ou=Gente,o=Universidad Carlos III,c=es
+
+# 100375945, MASTER UNIVERSITARIO EN INGENIERIA INDUSTRIAL, Alumnos, Gente, Uni
+ versidad Carlos III, es
+dn: uid=100375945,ou=MASTER UNIVERSITARIO EN INGENIERIA INDUSTRIAL,ou=Alumnos,
+ ou=Gente,o=Universidad Carlos III,c=es
+
+# 100405435, GRADO EN INGENIERIA AEROESPACIAL, Alumnos, Gente, Universidad Carl
+ os III, es
+dn: uid=100405435,ou=GRADO EN INGENIERIA AEROESPACIAL,ou=Alumnos,ou=Gente,o=Un
+ iversidad Carlos III,c=es
+
+# 100408735, DOBLE GRADO EN PERIODISMO Y COMUNICACION AUDIOVISUAL, Alumnos, Gen
+ te, Universidad Carlos III, es
+dn: uid=100408735,ou=DOBLE GRADO EN PERIODISMO Y COMUNICACION AUDIOVISUAL,ou=A
+ lumnos,ou=Gente,o=Universidad Carlos III,c=es
+
+# 100407692, GRADO EN ECONOMIA, Alumnos, Gente, Universidad Carlos III, es
+dn: uid=100407692,ou=GRADO EN ECONOMIA,ou=Alumnos,ou=Gente,o=Universidad Carlo
+ s III,c=es
+
+# 100407702, Grado en Finanzas y Contabilidad, Alumnos, Gente, Universidad Carl
+ os III, es
+dn: uid=100407702,ou=Grado en Finanzas y Contabilidad,ou=Alumnos,ou=Gente,o=Un
+ iversidad Carlos III,c=es
+
+# 100409479, DOBLE GRADO EN DERECHO Y ADMINISTRACION DE EMPRESAS, Alumnos, Gent
+ e, Universidad Carlos III, es
+dn: uid=100409479,ou=DOBLE GRADO EN DERECHO Y ADMINISTRACION DE EMPRESAS,ou=Al
+ umnos,ou=Gente,o=Universidad Carlos III,c=es
+
+# 100409921, MASTER UNIVERSITARIO EN GESTION Y DESARROLLO DE TECNOLOGIAS BIOMED
+ ICAS, Alumnos, Gente, Universidad Carlos III, es
+dn: uid=100409921,ou=MASTER UNIVERSITARIO EN GESTION Y DESARROLLO DE TECNOLOGI
+ AS BIOMEDICAS,ou=Alumnos,ou=Gente,o=Universidad Carlos III,c=es
+
+# 100410983, ESTUDIANTES VISITANTES EN LA UNIVERSIDAD CARLOS III DE MADRID, Alu
+ mnos, Gente, Universidad Carlos III, es
+dn: uid=100410983,ou=ESTUDIANTES VISITANTES EN LA UNIVERSIDAD CARLOS III DE MA
+ DRID,ou=Alumnos,ou=Gente,o=Universidad Carlos III,c=es
+
+# 100418914, MASTER UNIVERSITARIO EN FINANZAS - MASTER IN FINACE, Alumnos, Gent
+ e, Universidad Carlos III, es
+dn: uid=100418914,ou=MASTER UNIVERSITARIO EN FINANZAS - MASTER IN FINACE,ou=Al
+ umnos,ou=Gente,o=Universidad Carlos III,c=es
+
+# 100430181, GRADO EN ADMINISTRACION DE EMPRESAS, Alumnos, Gente, Universidad C
+ arlos III, es
+dn: uid=100430181,ou=GRADO EN ADMINISTRACION DE EMPRESAS,ou=Alumnos,ou=Gente,o
+ =Universidad Carlos III,c=es
+
+# 100432010, DOBLE GRADO EN DERECHO Y ECONOMIA, Alumnos, Gente, Universidad Car
+ los III, es
+dn: uid=100432010,ou=DOBLE GRADO EN DERECHO Y ECONOMIA,ou=Alumnos,ou=Gente,o=U
+ niversidad Carlos III,c=es
+
+# 100429561, GRADO EN INGENIERIA EN TECNOLOGIAS INDUSTRIALES, Alumnos, Gente, U
+ niversidad Carlos III, es
+dn: uid=100429561,ou=GRADO EN INGENIERIA EN TECNOLOGIAS INDUSTRIALES,ou=Alumno
+ s,ou=Gente,o=Universidad Carlos III,c=es
+
+# 100432061, MASTER EN DIRECCION Y GESTION DE LA SEGURIDAD, Alumnos, Gente, Uni
+ versidad Carlos III, es
+dn: uid=100432061,ou=MASTER EN DIRECCION Y GESTION DE LA SEGURIDAD,ou=Alumnos,
+ ou=Gente,o=Universidad Carlos III,c=es
+
+# 100430230, GRADO EN ADMINISTRACION DE EMPRESAS, Alumnos, Gente, Universidad C
+ arlos III, es
+dn: uid=100430230,ou=GRADO EN ADMINISTRACION DE EMPRESAS,ou=Alumnos,ou=Gente,o
+ =Universidad Carlos III,c=es
+
+# 100409323, GRADO EN INGENIERIA ELECTRONICA INDUSTRIAL Y AUTOMATICA, Alumnos, 
+ Gente, Universidad Carlos III, es
+dn: uid=100409323,ou=GRADO EN INGENIERIA ELECTRONICA INDUSTRIAL Y AUTOMATICA,o
+ u=Alumnos,ou=Gente,o=Universidad Carlos III,c=es
+
+# 100446093, MASTER DE FORMACION PERMANENTE EN GUION DE CINE Y TELEVISION, Alum
+ nos, Gente, Universidad Carlos III, es
+dn: uid=100446093,ou=MASTER DE FORMACION PERMANENTE EN GUION DE CINE Y TELEVIS
+ ION,ou=Alumnos,ou=Gente,o=Universidad Carlos III,c=es
+
+# 100452490, GRADO EN ADMINISTRACION DE EMPRESAS, Alumnos, Gente, Universidad C
+ arlos III, es
+dn: uid=100452490,ou=GRADO EN ADMINISTRACION DE EMPRESAS,ou=Alumnos,ou=Gente,o
+ =Universidad Carlos III,c=es
+
+# 100451451, GRADO EN INGENIERIA DE SISTEMAS AUDIOVISUALES, Alumnos, Gente, Uni
+ versidad Carlos III, es
+dn: uid=100451451,ou=GRADO EN INGENIERIA DE SISTEMAS AUDIOVISUALES,ou=Alumnos,
+ ou=Gente,o=Universidad Carlos III,c=es
+
+# 100451630, GRADO EN INGENIERIA MECANICA, Alumnos, Gente, Universidad Carlos I
+ II, es
+dn: uid=100451630,ou=GRADO EN INGENIERIA MECANICA,ou=Alumnos,ou=Gente,o=Univer
+ sidad Carlos III,c=es
+
+# 100453384, Grado en Relaciones Laborales y Empleo, Alumnos, Gente, Universida
+ d Carlos III, es
+dn: uid=100453384,ou=Grado en Relaciones Laborales y Empleo,ou=Alumnos,ou=Gent
+ e,o=Universidad Carlos III,c=es
+
+# 100454449, DOBLE GRADO CIENCIA E INGENIERIA DE DATOS - INGENIERIA EN TECNOLOG
+ IAS DE TELECOMUNICACION, Alumnos, Gente, Universidad Carlos III, es
+dn: uid=100454449,ou=DOBLE GRADO CIENCIA E INGENIERIA DE DATOS - INGENIERIA EN
+  TECNOLOGIAS DE TELECOMUNICACION,ou=Alumnos,ou=Gente,o=Universidad Carlos III
+ ,c=es
+
+# 100465713, ESTUDIANTES VISITANTES EN LA UNIVERSIDAD CARLOS III DE MADRID, Alu
+ mnos, Gente, Universidad Carlos III, es
+dn: uid=100465713,ou=ESTUDIANTES VISITANTES EN LA UNIVERSIDAD CARLOS III DE MA
+ DRID,ou=Alumnos,ou=Gente,o=Universidad Carlos III,c=es
+
+# search result
+search: 2
+result: 4 Size limit exceeded
+
+# numResponses: 51
+# numEntries: 50

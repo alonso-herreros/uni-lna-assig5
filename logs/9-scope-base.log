@@ -1,0 +1,14 @@
+[2025-03-20, 11:45:14] ldapsearch -x -H ldaps://ldap.lab.it.uc3m.es -b "ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es" -s base "(gecos=GRADO EN INGENIERIA EN TECNOLOGIAS DE TELECOMUNICACION )"
+# extended LDIF
+#
+# LDAPv3
+# base <ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es> with scope baseObject
+# filter: (gecos=GRADO EN INGENIERIA EN TECNOLOGIAS DE TELECOMUNICACION )
+# requesting: ALL
+#
+
+# search result
+search: 2
+result: 0 Success
+
+# numResponses: 1

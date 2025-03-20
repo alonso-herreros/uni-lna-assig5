@@ -1,0 +1,282 @@
+[2025-03-20, 12:25:04] ldapsearch -x -H ldaps://ldap.lab.it.uc3m.es -b "ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es" "(&(cn=*JU*)(!(cn=*MAR*)))" dn
+# extended LDIF
+#
+# LDAPv3
+# base <ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es> with scope subtree
+# filter: (&(cn=*JU*)(!(cn=*MAR*)))
+# requesting: dn 
+#
+
+# 0072703, Alum, lab.it.uc3m.es
+dn: uid=0072703,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0302727, Alum, lab.it.uc3m.es
+dn: uid=0302727,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0282499, Alum, lab.it.uc3m.es
+dn: uid=0282499,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0364469, Alum, lab.it.uc3m.es
+dn: uid=0364469,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0364563, Alum, lab.it.uc3m.es
+dn: uid=0364563,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0384113, Alum, lab.it.uc3m.es
+dn: uid=0384113,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0383446, Alum, lab.it.uc3m.es
+dn: uid=0383446,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0383988, Alum, lab.it.uc3m.es
+dn: uid=0383988,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0383364, Alum, lab.it.uc3m.es
+dn: uid=0383364,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0384066, Alum, lab.it.uc3m.es
+dn: uid=0384066,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0399209, Alum, lab.it.uc3m.es
+dn: uid=0399209,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0406578, Alum, lab.it.uc3m.es
+dn: uid=0406578,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0406539, Alum, lab.it.uc3m.es
+dn: uid=0406539,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0406523, Alum, lab.it.uc3m.es
+dn: uid=0406523,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0406503, Alum, lab.it.uc3m.es
+dn: uid=0406503,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0406572, Alum, lab.it.uc3m.es
+dn: uid=0406572,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0406223, Alum, lab.it.uc3m.es
+dn: uid=0406223,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0383373, Alum, lab.it.uc3m.es
+dn: uid=0383373,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0406670, Alum, lab.it.uc3m.es
+dn: uid=0406670,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0406625, Alum, lab.it.uc3m.es
+dn: uid=0406625,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0409353, Alum, lab.it.uc3m.es
+dn: uid=0409353,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0406270, Alum, lab.it.uc3m.es
+dn: uid=0406270,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0429713, Alum, lab.it.uc3m.es
+dn: uid=0429713,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0429765, Alum, lab.it.uc3m.es
+dn: uid=0429765,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0429722, Alum, lab.it.uc3m.es
+dn: uid=0429722,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0429703, Alum, lab.it.uc3m.es
+dn: uid=0429703,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0429787, Alum, lab.it.uc3m.es
+dn: uid=0429787,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0383587, Alum, lab.it.uc3m.es
+dn: uid=0383587,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0428800, Alum, lab.it.uc3m.es
+dn: uid=0428800,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0437832, Alum, lab.it.uc3m.es
+dn: uid=0437832,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0451745, Alum, lab.it.uc3m.es
+dn: uid=0451745,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0445585, Alum, lab.it.uc3m.es
+dn: uid=0445585,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0455366, Alum, lab.it.uc3m.es
+dn: uid=0455366,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0463198, Alum, lab.it.uc3m.es
+dn: uid=0463198,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0405840, Alum, lab.it.uc3m.es
+dn: uid=0405840,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0429900, Alum, lab.it.uc3m.es
+dn: uid=0429900,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0409406, Alum, lab.it.uc3m.es
+dn: uid=0409406,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0464690, Alum, lab.it.uc3m.es
+dn: uid=0464690,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0469413, Alum, lab.it.uc3m.es
+dn: uid=0469413,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0363378, Alum, lab.it.uc3m.es
+dn: uid=0363378,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0386891, Alum, lab.it.uc3m.es
+dn: uid=0386891,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0429065, Alum, lab.it.uc3m.es
+dn: uid=0429065,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0409352, Alum, lab.it.uc3m.es
+dn: uid=0409352,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0468705, Alum, lab.it.uc3m.es
+dn: uid=0468705,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0388958, Alum, lab.it.uc3m.es
+dn: uid=0388958,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0478471, Alum, lab.it.uc3m.es
+dn: uid=0478471,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0436276, Alum, lab.it.uc3m.es
+dn: uid=0436276,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0479289, Alum, lab.it.uc3m.es
+dn: uid=0479289,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0451233, Alum, lab.it.uc3m.es
+dn: uid=0451233,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0451036, Alum, lab.it.uc3m.es
+dn: uid=0451036,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0472333, Alum, lab.it.uc3m.es
+dn: uid=0472333,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0491107, Alum, lab.it.uc3m.es
+dn: uid=0491107,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0493829, Alum, lab.it.uc3m.es
+dn: uid=0493829,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0451012, Alum, lab.it.uc3m.es
+dn: uid=0451012,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0472858, Alum, lab.it.uc3m.es
+dn: uid=0472858,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0485697, Alum, lab.it.uc3m.es
+dn: uid=0485697,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0487922, Alum, lab.it.uc3m.es
+dn: uid=0487922,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0475402, Alum, lab.it.uc3m.es
+dn: uid=0475402,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0496481, Alum, lab.it.uc3m.es
+dn: uid=0496481,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0512236, Alum, lab.it.uc3m.es
+dn: uid=0512236,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0502334, Alum, lab.it.uc3m.es
+dn: uid=0502334,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0513971, Alum, lab.it.uc3m.es
+dn: uid=0513971,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0405999, Alum, lab.it.uc3m.es
+dn: uid=0405999,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0496146, Alum, lab.it.uc3m.es
+dn: uid=0496146,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0521390, Alum, lab.it.uc3m.es
+dn: uid=0521390,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0496281, Alum, lab.it.uc3m.es
+dn: uid=0496281,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0512346, Alum, lab.it.uc3m.es
+dn: uid=0512346,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0472197, Alum, lab.it.uc3m.es
+dn: uid=0472197,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0495738, Alum, lab.it.uc3m.es
+dn: uid=0495738,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0483819, Alum, lab.it.uc3m.es
+dn: uid=0483819,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0418205, Alum, lab.it.uc3m.es
+dn: uid=0418205,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0429847, Alum, lab.it.uc3m.es
+dn: uid=0429847,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0489707, Alum, lab.it.uc3m.es
+dn: uid=0489707,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0499176, Alum, lab.it.uc3m.es
+dn: uid=0499176,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0464544, Alum, lab.it.uc3m.es
+dn: uid=0464544,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0496398, Alum, lab.it.uc3m.es
+dn: uid=0496398,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0502392, Alum, lab.it.uc3m.es
+dn: uid=0502392,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0546778, Alum, lab.it.uc3m.es
+dn: uid=0546778,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0545074, Alum, lab.it.uc3m.es
+dn: uid=0545074,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0547729, Alum, lab.it.uc3m.es
+dn: uid=0547729,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0546065, Alum, lab.it.uc3m.es
+dn: uid=0546065,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0549357, Alum, lab.it.uc3m.es
+dn: uid=0549357,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0496390, Alum, lab.it.uc3m.es
+dn: uid=0496390,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0548478, Alum, lab.it.uc3m.es
+dn: uid=0548478,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0535977, Alum, lab.it.uc3m.es
+dn: uid=0535977,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0496468, Alum, lab.it.uc3m.es
+dn: uid=0496468,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0541532, Alum, lab.it.uc3m.es
+dn: uid=0541532,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0522678, Alum, lab.it.uc3m.es
+dn: uid=0522678,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# 0553673, Alum, lab.it.uc3m.es
+dn: uid=0553673,ou=Alum,dc=lab,dc=it,dc=uc3m,dc=es
+
+# search result
+search: 2
+result: 0 Success
+
+# numResponses: 90
+# numEntries: 89
