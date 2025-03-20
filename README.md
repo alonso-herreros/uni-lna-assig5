@@ -41,6 +41,10 @@ Mail last read Sat Dec  7 09:11 2024 (CET)
 No Plan.
 ```
 
+La siguiente captura de pantalla ilustra la ejecución del ejercicio:
+
+![alt](screenshots/1-finger.png)
+
 ## Ejercicio 2: encontrar el `dn` de una asignatura
 
 Usando el siguiente comando:
@@ -723,6 +727,10 @@ result: 4 Size limit exceeded
 # numEntries: 7
 ```
 
+La siguiente captura de pantalla ilustra la ejecución del ejercicio:
+
+![alt](screenshots/16.png)
+
 ## Ejercicio 17: estudiantes con mismo primer o segundo apellido
 
 Las dos cadenas que debo buscar en mi caso son 'HERREROS' y 'COPETE'. Usando el
@@ -828,6 +836,10 @@ result: 0 Success
 
 Como se esperaba, se han realizado 3 peticiones con la misma base y distintos
 filtros.
+
+La siguiente captura de pantalla ilustra la ejecución:
+
+![alt](screenshots/18.png)
 
 ## Ejercicio 19: petición al LDAP de la universidad
 
@@ -971,6 +983,10 @@ result: 0 Success
 
 Es decir, que hay un alumno cuyo primer nombre es 'Alonso' y cuyo segundo
 apellido (o primer apellido en caso de tener segundo nombre) empieza por 'H'.
+
+La siguiente captura de pantalla ilustra la ejecución de la última petición
+
+![alt](screenshots/19b.3.png)
 
 ## Licencia
 
